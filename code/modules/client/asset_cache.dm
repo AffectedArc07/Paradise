@@ -262,6 +262,19 @@ You can set verify to TRUE if you want send() to sleep until the client has the 
 		"nano/templates/"
 	)
 
+/datum/asset/simple/tgui
+	assets = list(
+		"tgui-main.html" = 'tgui/packages/tgui/public/tgui-main.html',
+		"tgui-fallback.html" = 'tgui/packages/tgui/public/tgui-fallback.html',
+		"tgui.bundle.js" = 'tgui/packages/tgui/public/bundles/tgui.bundle.js',
+		"tgui.bundle.css" = 'tgui/packages/tgui/public/bundles/tgui.bundle.css',
+		"shim-console.js" = 'tgui/packages/tgui/public/shim-console.js',
+		"shim-html5shiv.js" = 'tgui/packages/tgui/public/shim-html5shiv.js',
+		"shim-ie8.js" = 'tgui/packages/tgui/public/shim-ie8.js',
+		"shim-dom4.js" = 'tgui/packages/tgui/public/shim-dom4.js',
+		"shim-css-om.js" = 'tgui/packages/tgui/public/shim-css-om.js',
+	)
+
 /datum/asset/nanoui/register()
 	// Crawl the directories to find files.
 	for(var/path in common_dirs)

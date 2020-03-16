@@ -14,6 +14,8 @@ GLOBAL_VAR(world_asset_log)
 GLOBAL_PROTECT(world_asset_log)
 GLOBAL_VAR(runtime_summary_log)
 GLOBAL_PROTECT(runtime_summary_log)
+GLOBAL_VAR(tgui_log)
+GLOBAL_PROTECT(tgui_log)
 
 var/list/jobMax = list()
 var/list/admin_log = list (  )
