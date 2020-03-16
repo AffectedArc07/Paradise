@@ -5,10 +5,7 @@ export const NoticeBox = props => {
   const { className, ...rest } = props;
   return (
     <Box
-      className={classes([
-        'NoticeBox',
-        className,
-      ])}
+      className={classes('NoticeBox', className)}
       {...rest} />
   );
 };

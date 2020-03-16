@@ -1,10 +1,12 @@
-import { toFixed } from 'common/math';
 import { Fragment } from 'inferno';
-import { useBackend } from '../backend';
-import { AnimatedNumber, Button, LabeledList, NumberInput, Section } from '../components';
+import { act } from '../byond';
+import { AnimatedNumber, LabeledList, Button, Section } from '../components';
+import { toFixed } from 'common/math';
 
 export const ThermoMachine = props => {
-  const { act, data } = useBackend(props);
+  const { state } = props;
+  const { config, data } = state;
+  const { ref } = config;
   return (
     <Fragment>
       <Section title="Status">
@@ -12,62 +14,57 @@ export const ThermoMachine = props => {
           <LabeledList.Item label="Temperature">
             <AnimatedNumber
               value={data.temperature}
-              format={value => toFixed(value, 2)} />
-            {' K'}
+              format={value => toFixed(value, 2)} /> K
           </LabeledList.Item>
           <LabeledList.Item label="Pressure">
             <AnimatedNumber
               value={data.pressure}
-              format={value => toFixed(value, 2)} />
-            {' kPa'}
+              format={value => toFixed(value, 2)} /> kPa
           </LabeledList.Item>
         </LabeledList>
       </Section>
-      <Section
-        title="Controls"
-        buttons={(
-          <Button
-            icon={data.on ? 'power-off' : 'times'}
-            content={data.on ? 'On' : 'Off'}
-            selected={data.on}
-            onClick={() => act('power')} />
-        )}>
+      <Section title="Controls">
         <LabeledList>
-          <LabeledList.Item label="Target Temperature">
-            <NumberInput
-              animated
-              value={Math.round(data.target)}
-              unit="K"
-              width="62px"
-              minValue={Math.round(data.min)}
-              maxValue={Math.round(data.max)}
-              step={5}
-              stepPixelSize={3}
-              onDrag={(e, value) => act('target', {
-                target: value,
-              })} />
+          <LabeledList.Item label="Power">
+            <Button
+              icon={data.on ? 'power-off' : 'times'}
+              content={data.on ? 'On' : 'Off' }
+              selected={data.on}
+              onClick={() => act(ref, 'power')} />
           </LabeledList.Item>
-          <LabeledList.Item label="Presets">
+          <LabeledList.Item label="Target Temperature">
             <Button
               icon="fast-backward"
               disabled={data.target === data.min}
-              title="Minimum temperature"
-              onClick={() => act('target', {
-                target: data.min,
+              onClick={() => act(ref, 'target', {
+                adjust: -20,
               })} />
             <Button
-              icon="sync"
-              disabled={data.target === data.initial}
-              title="Room Temperature"
-              onClick={() => act('target', {
-                target: data.initial,
+              icon="backward"
+              disabled={data.target === data.min}
+              onClick={() => act(ref, 'target', {
+                adjust: -5,
+              })} />
+            <Button
+              icon="pencil-alt"
+              onClick={() => act(ref, 'target', {
+                target: 'input',
+              })}>
+              <AnimatedNumber
+                value={data.target}
+                format={value => toFixed(value, 2)} />
+            </Button>
+            <Button
+              icon="forward"
+              disabled={data.target === data.max}
+              onClick={() => act(ref, 'target', {
+                adjust: 5,
               })} />
             <Button
               icon="fast-forward"
               disabled={data.target === data.max}
-              title="Maximum Temperature"
-              onClick={() => act('target', {
-                target: data.max,
+              onClick={() => act(ref, 'target', {
+                adjust: 20,
               })} />
           </LabeledList.Item>
         </LabeledList>

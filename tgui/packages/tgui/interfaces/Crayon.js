@@ -1,14 +1,16 @@
 import { Fragment } from 'inferno';
-import { useBackend } from '../backend';
+import { act } from '../byond';
 import { Button, LabeledList, Section } from '../components';
 
 export const Crayon = props => {
-  const { act, data } = useBackend(props);
+  const { state } = props;
+  const { config, data } = state;
+  const { ref } = config;
   const capOrChanges = data.has_cap || data.can_change_colour;
   const drawables = data.drawables || [];
   return (
     <Fragment>
-      {!!capOrChanges && (
+      {capOrChanges && (
         <Section title="Basic">
           <LabeledList>
             <LabeledList.Item label="Cap">
@@ -16,12 +18,12 @@ export const Crayon = props => {
                 icon={data.is_capped ? 'power-off' : 'times'}
                 content={data.is_capped ? 'On' : 'Off'}
                 selected={data.is_capped}
-                onClick={() => act('toggle_cap')} />
+                onClick={() => act(ref, 'toggle_cap')} />
             </LabeledList.Item>
           </LabeledList>
           <Button
             content="Select New Color"
-            onClick={() => act('select_colour')} />
+            onClick={() => act(ref, 'select_colour')} />
         </Section>
       )}
       <Section title="Stencil">
@@ -29,15 +31,12 @@ export const Crayon = props => {
           {drawables.map(drawable => {
             const items = drawable.items || [];
             return (
-              <LabeledList.Item
-                key={drawable.name}
-                label={drawable.name}>
+              <LabeledList.Item label={drawable.name}>
                 {items.map(item => (
                   <Button
-                    key={item.item}
                     content={item.item}
                     selected={item.item === data.selected_stencil}
-                    onClick={() => act('select_stencil', {
+                    onClick={() => act(ref, 'select_stencil', {
                       item: item.item,
                     })} />
                 ))}
@@ -54,7 +53,7 @@ export const Crayon = props => {
         </LabeledList>
         <Button
           content="New Text"
-          onClick={() => act('enter_text')} />
+          onClick={() => act(ref, 'enter_text')} />
       </Section>
     </Fragment>
   );

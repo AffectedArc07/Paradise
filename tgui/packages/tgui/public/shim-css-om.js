@@ -1,5 +1,6 @@
 /**
  * CSS Object Model patches
+ *
  * Adapted from: https://github.com/shawnbot/aight
  */
 

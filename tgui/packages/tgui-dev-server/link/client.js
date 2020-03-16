@@ -8,12 +8,11 @@ const ensureConnection = () => {
       return;
     }
     if (!socket || socket.readyState === WebSocket.CLOSED) {
-      const DEV_SERVER_IP = process.env.DEV_SERVER_IP || '127.0.0.1';
-      socket = new WebSocket(`ws://${DEV_SERVER_IP}:3000`);
+      socket = new WebSocket('ws://127.0.0.1:3000');
       socket.onopen = () => {
         // Empty the message queue
         while (queue.length !== 0) {
-          const msg = queue.shift();
+          const msg = queue.pop();
           socket.send(msg);
         }
       };
@@ -33,42 +32,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 const subscribe = fn => subscribers.push(fn);
 
-/**
- * A json serializer which handles circular references and other junk.
- */
-const serializeObject = obj => {
-  let refs = [];
-  const json = JSON.stringify(obj, (key, value) => {
-    if (typeof value === 'object' && value !== null) {
-      // Circular reference
-      if (refs.includes(value)) {
-        return '[circular ref]';
-      }
-      refs.push(value);
-      // Error object
-      if (value instanceof Error) {
-        return {
-          __error__: true,
-          string: String(value),
-          stack: value.stack,
-        };
-      }
-      return value;
-    }
-    if (typeof value === 'number' && !Number.isFinite(value)) {
-      return {
-        __number__: String(value),
-      };
-    }
-    return value;
-  });
-  refs = null;
-  return json;
-};
-
 const sendRawMessage = msg => {
   if (process.env.NODE_ENV !== 'production') {
-    const json = serializeObject(msg);
+    const json = JSON.stringify(msg);
     // Send message using WebSocket
     if (window.WebSocket) {
       ensureConnection();
@@ -85,22 +51,19 @@ const sendRawMessage = msg => {
     }
     // Send message using plain HTTP request.
     else {
-      const DEV_SERVER_IP = process.env.DEV_SERVER_IP || '127.0.0.1';
       const req = new XMLHttpRequest();
-      req.open('POST', `http://${DEV_SERVER_IP}:3001`);
-      req.timeout = 500;
+      req.open('POST', 'http://127.0.0.1:3001', true);
       req.send(json);
     }
   }
 };
 
-export const sendLogEntry = (level, ns, ...args) => {
+export const sendLogEntry = (ns, ...args) => {
   if (process.env.NODE_ENV !== 'production') {
     try {
       sendRawMessage({
         type: 'log',
         payload: {
-          level,
           ns: ns || 'client',
           args,
         },
@@ -116,14 +79,14 @@ export const setupHotReloading = () => {
       && window.WebSocket) {
     if (module.hot) {
       ensureConnection();
-      sendLogEntry(0, null, 'setting up hot reloading');
+      sendLogEntry(null, 'setting up hot reloading');
       subscribe(msg => {
         const { type } = msg;
-        sendLogEntry(0, null, 'received', type);
+        sendLogEntry(null, 'received', type);
         if (type === 'hotUpdate') {
           const status = module.hot.status();
           if (status !== 'idle') {
-            sendLogEntry(0, null, 'hot reload status:', status);
+            sendLogEntry(null, 'hot reload status:', status);
             return;
           }
           module.hot
@@ -132,11 +95,11 @@ export const setupHotReloading = () => {
               ignoreDeclined: true,
               ignoreErrored: true,
             })
-            .then(modules => {
-              sendLogEntry(0, null, 'outdated modules', modules);
-            })
+            // .then(modules => {
+            //   sendLogEntry(null, 'outdated modules', modules);
+            // })
             .catch(err => {
-              sendLogEntry(0, null, 'reload error', err);
+              sendLogEntry(null, 'reload error', err);
             });
         }
       });

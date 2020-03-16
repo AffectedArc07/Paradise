@@ -1,37 +1,21 @@
 import { classes } from 'common/react';
 import { decodeHtmlEntities } from 'common/string';
-import { Component, Fragment } from 'inferno';
-import { runCommand, winset } from './byond';
-import { Box, TitleBar } from './components';
+import { Component, createRef } from 'inferno';
+import { runCommand, tridentVersion, winset } from './byond';
+import { TitleBar, Box } from './components';
+import { BUTTON_ACTIVATION_KEYCODES } from './components/Button';
 import { Toast } from './components/Toast';
-import { UI_DISABLED, UI_INTERACTIVE } from './constants';
+import { UI_INTERACTIVE } from './constants';
 import { dragStartHandler, resizeStartHandler } from './drag';
-import { releaseHeldKeys } from './hotkeys';
 import { createLogger } from './logging';
-import { refocusLayout } from './refocus';
 import { getRoute } from './routes';
 
 const logger = createLogger('Layout');
 
-const LayoutContent = props => {
-  const { scrollable, children } = props;
-  return (
-    <div
-      id="Layout__content"
-      className={classes([
-        'Layout__content',
-        scrollable && 'Layout__content--scrollable',
-      ])}>
-      <Box m={1}>
-        {children}
-      </Box>
-    </div>
-  );
-};
-
 export class Layout extends Component {
-  componentDidMount() {
-    refocusLayout();
+  constructor() {
+    super();
+    this.contentRef = createRef();
   }
 
   render() {
@@ -39,73 +23,70 @@ export class Layout extends Component {
     const { state, dispatch } = props;
     const { config } = state;
     const route = getRoute(state);
-    const { scrollable, theme } = route || {};
-    let contentElement;
-    if (route) {
-      const RoutedComponent = route.component();
-      const WrapperComponent = route.wrapper && route.wrapper();
-      // Render content
-      contentElement = (
-        <LayoutContent scrollable={scrollable}>
-          <RoutedComponent state={state} dispatch={dispatch} />
-        </LayoutContent>
-      );
-      // Wrap into the wrapper component
-      if (WrapperComponent) {
-        contentElement = (
-          <WrapperComponent
-            state={state}
-            dispatch={dispatch}>
-            {contentElement}
-          </WrapperComponent>
-        );
-      }
+    if (!route) {
+      return `Component for '${config.interface}' was not found.`;
     }
-    else {
-      contentElement = (
-        <LayoutContent>
-          Route entry missing for <b>{config.interface}</b>.
-        </LayoutContent>
-      );
-    }
-    // Determine when to show dimmer
-    const showDimmer = config.observer
-      ? config.status < UI_DISABLED
-      : config.status < UI_INTERACTIVE;
+    const Component = route.component();
+    const { scrollable } = route;
     return (
-      <div className={'theme-' + theme}>
-        <div className="Layout">
-          <TitleBar
-            className="Layout__titleBar"
-            title={decodeHtmlEntities(config.title)}
-            status={config.status}
-            fancy={config.fancy}
-            onDragStart={dragStartHandler}
-            onClose={() => {
-              logger.log('pressed close');
-              releaseHeldKeys();
-              winset(config.window, 'is-visible', false);
-              runCommand(`uiclose ${config.ref}`);
-            }} />
-          {contentElement}
-          {showDimmer && (
-            <div className="Layout__dimmer" />
-          )}
-          {state.toastText && (
-            <Toast content={state.toastText} />
-          )}
-          {config.fancy && scrollable && (
-            <Fragment>
-              <div className="Layout__resizeHandle__e"
-                onMousedown={resizeStartHandler(1, 0)} />
-              <div className="Layout__resizeHandle__s"
-                onMousedown={resizeStartHandler(0, 1)} />
-              <div className="Layout__resizeHandle__se"
-                onMousedown={resizeStartHandler(1, 1)} />
-            </Fragment>
-          )}
+      <Fragment>
+        <TitleBar
+          className="Layout__titleBar"
+          title={decodeHtmlEntities(config.title)}
+          status={config.status}
+          fancy={config.fancy}
+          onDragStart={dragStartHandler}
+          onClose={() => {
+            logger.log('pressed close');
+            winset(config.window, 'is-visible', false);
+            runCommand(`uiclose ${config.ref}`);
+          }} />
+        <div
+          ref={this.contentRef}
+          className={classes([
+            'Layout__content',
+            scrollable && 'Layout__content--scrollable',
+          ])}
+          onClick={() => {
+            // Abort this code path on IE8
+            if (tridentVersion <= 4) {
+              return;
+            }
+            // Bring focus back to the window on every click
+            this.contentRef.current.focus();
+          }}
+          onKeyPress={e => {
+            // Abort this code path on IE8
+            if (tridentVersion <= 4) {
+              return;
+            }
+            // Bring focus back to the window on every keypress
+            const keyCode = window.event ? e.which : e.keyCode;
+            if (BUTTON_ACTIVATION_KEYCODES.includes(keyCode)) {
+              this.contentRef.current.focus();
+            }
+          }}>
+          <Box m={1}>
+            <Component state={state} dispatch={dispatch} />
+          </Box>
         </div>
-      </div>
+        {config.status !== UI_INTERACTIVE && (
+          <div className="Layout__dimmer" />
+        )}
+        {state.toastText && (
+          <Toast content={state.toastText} />
+        )}
+        {config.fancy && scrollable && (
+          <Fragment>
+            <div className="Layout__resizeHandle__e"
+              onMousedown={resizeStartHandler(1, 0)} />
+            <div className="Layout__resizeHandle__s"
+              onMousedown={resizeStartHandler(0, 1)} />
+            <div className="Layout__resizeHandle__se"
+              onMousedown={resizeStartHandler(1, 1)} />
+          </Fragment>
+        )}
+      </Fragment>
     );
   }
 }

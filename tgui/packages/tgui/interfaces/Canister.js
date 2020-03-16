@@ -1,9 +1,11 @@
 import { Fragment } from 'inferno';
-import { useBackend } from '../backend';
-import { AnimatedNumber, Box, Button, LabeledList, NoticeBox, ProgressBar, Section } from '../components';
+import { act } from '../byond';
+import { AnimatedNumber, Button, LabeledList, NoticeBox, ProgressBar, Section, Box } from '../components';
 
 export const Canister = props => {
-  const { act, data } = useBackend(props);
+  const { state } = props;
+  const { config, data } = state;
+  const { ref } = config;
   return (
     <Fragment>
       <NoticeBox>
@@ -16,7 +18,7 @@ export const Canister = props => {
           <Button
             icon="pencil-alt"
             content="Relabel"
-            onClick={() => act('relabel')} />
+            onClick={() => act(ref, 'relabel')} />
         )}>
         <LabeledList>
           <LabeledList.Item label="Pressure">
@@ -34,7 +36,7 @@ export const Canister = props => {
                 content={data.restricted
                   ? 'Restricted to Engineering'
                   : 'Public'}
-                onClick={() => act('restricted')} />
+                onClick={() => act(ref, 'restricted')} />
             </LabeledList.Item>
           )}
         </LabeledList>
@@ -54,27 +56,27 @@ export const Canister = props => {
               icon="undo"
               disabled={data.releasePressure === data.defaultReleasePressure}
               content="Reset"
-              onClick={() => act('pressure', {
+              onClick={() => act(ref, 'pressure', {
                 pressure: 'reset',
               })} />
             <Button
               icon="minus"
               disabled={data.releasePressure <= data.minReleasePressure}
               content="Min"
-              onClick={() => act('pressure', {
+              onClick={() => act(ref, 'pressure', {
                 pressure: 'min',
               })} />
             <Button
               icon="pencil-alt"
               content="Set"
-              onClick={() => act('pressure', {
+              onClick={() => act(ref, 'pressure', {
                 pressure: 'input',
               })} />
             <Button
               icon="plus"
               disabled={data.releasePressure >= data.maxReleasePressure}
               content="Max"
-              onClick={() => act('pressure', {
+              onClick={() => act(ref, 'pressure', {
                 pressure: 'max',
               })} />
           </LabeledList.Item>
@@ -86,7 +88,7 @@ export const Canister = props => {
                 ? (data.hasHoldingTank ? 'caution' : 'danger')
                 : null}
               content={data.valveOpen ? 'Open' : 'Closed'}
-              onClick={() => act('valve')} />
+              onClick={() => act(ref, 'valve')} />
           </LabeledList.Item>
         </LabeledList>
       </Section>
@@ -98,7 +100,7 @@ export const Canister = props => {
             icon="eject"
             color={data.valveOpen && 'danger'}
             content="Eject"
-            onClick={() => act('eject')} />
+            onClick={() => act(ref, 'eject')} />
         )}>
         {!!data.hasHoldingTank && (
           <LabeledList>

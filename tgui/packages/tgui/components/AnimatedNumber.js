@@ -50,28 +50,20 @@ export class AnimatedNumber extends Component {
 
   render() {
     const { props, state } = this;
-    const { format, children } = props;
+    const { format } = props;
     const currentValue = state.value;
     const targetValue = props.value;
     // Directly display values which can't be animated
     if (!isSafeNumber(targetValue)) {
       return targetValue || null;
     }
-    let formattedValue = currentValue;
     // Use custom formatter
     if (format) {
-      formattedValue = format(currentValue);
+      return format(currentValue);
     }
     // Fix our animated precision at target value's precision.
-    else {
-      const fraction = String(targetValue).split('.')[1];
-      const precision = fraction ? fraction.length : 0;
-      formattedValue = toFixed(currentValue, clamp(precision, 0, 8));
-    }
-    // Use a custom render function
-    if (typeof children === 'function') {
-      return children(formattedValue, currentValue);
-    }
-    return formattedValue;
+    const fraction = String(targetValue).split('.')[1];
+    const precision = fraction ? fraction.length : 0;
+    return toFixed(currentValue, clamp(precision, 0, 8));
   }
 }

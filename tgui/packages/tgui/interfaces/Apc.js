@@ -1,10 +1,12 @@
 import { Fragment } from 'inferno';
-import { useBackend } from '../backend';
-import { Box, Button, LabeledList, NoticeBox, ProgressBar, Section } from '../components';
+import { act } from '../byond';
+import { Button, LabeledList, NoticeBox, ProgressBar, Section, Box } from '../components';
 import { InterfaceLockNoticeBox } from './common/InterfaceLockNoticeBox';
 
-export const Apc = props => {
-  const { act, data } = useBackend(props);
+export const APC = props => {
+  const { state } = props;
+  const { config, data } = state;
+  const { ref } = config;
   const locked = data.locked && !data.siliconUser;
   const powerStatusMap = {
     2: {
@@ -45,10 +47,8 @@ export const Apc = props => {
       action: 'occupy',
     },
   };
-  const externalPowerStatus = powerStatusMap[data.externalPower]
-    || powerStatusMap[0];
-  const chargingStatus = powerStatusMap[data.chargingStatus]
-    || powerStatusMap[0];
+  const externalPowerStatus = powerStatusMap[data.externalPower] || powerStatusMap[0];
+  const chargingStatus = powerStatusMap[data.chargingStatus] || powerStatusMap[0];
   const channelArray = data.powerChannels || [];
   const malfStatus = malfMap[data.malfStatus] || malfMap[0];
   const adjustedCellChange = data.powerCellStatus / 100;
@@ -57,16 +57,13 @@ export const Apc = props => {
     return (
       <NoticeBox>
         <b><h3>SYSTEM FAILURE</h3></b>
-        <i>
-          I/O regulators malfunction detected!
-          Waiting for system reboot...
-        </i>
-        <br />
+        <i>I/O regulators malfunction detected!
+          Waiting for system reboot...</i><br/>
         Automatic reboot in {data.failTime} seconds...
         <Button
           icon="sync"
           content="Reboot Now"
-          onClick={() => act('reboot')} />
+          onClick={() => act(ref, 'reboot')} />
       </NoticeBox>
     );
   }
@@ -76,7 +73,7 @@ export const Apc = props => {
       <InterfaceLockNoticeBox
         siliconUser={data.siliconUser}
         locked={data.locked}
-        onLockStatusChange={() => act('lock')} />
+        onLockStatusChange={() => act(ref, 'lock')} />
       <Section title="Power Status">
         <LabeledList>
           <LabeledList.Item
@@ -84,11 +81,11 @@ export const Apc = props => {
             color={externalPowerStatus.color}
             buttons={(
               <Button
-                icon={data.isOperating ? 'power-off' : 'times'}
-                content={data.isOperating ? 'On' : 'Off'}
+                icon={data.isOperating ? 'power-off' : 'times' }
+                content={data.isOperating ? 'On' : 'Off' }
                 selected={data.isOperating && !locked}
                 disabled={locked}
-                onClick={() => act('breaker')} />
+                onClick={() => act(ref, 'breaker')} />
             )}>
             [ {externalPowerStatus.externalPowerText} ]
           </LabeledList.Item>
@@ -102,10 +99,10 @@ export const Apc = props => {
             color={chargingStatus.color}
             buttons={(
               <Button
-                icon={data.chargeMode ? 'sync' : 'close'}
-                content={data.chargeMode ? 'Auto' : 'Off'}
+                icon={data.chargeMode ? 'sync' : 'close' }
+                content={data.chargeMode ? 'Auto' : 'Off' }
                 disabled={locked}
-                onClick={() => act('charge')} />
+                onClick={() => act(ref, 'charge')} />
             )}>
             [ {chargingStatus.chargingText} ]
           </LabeledList.Item>
@@ -117,13 +114,12 @@ export const Apc = props => {
             const { topicParams } = channel;
             return (
               <LabeledList.Item
-                key={channel.title}
                 label={channel.title}
                 buttons={(
                   <Fragment>
                     <Box inline mx={2}
                       color={channel.status >= 2 ? 'good' : 'bad'}>
-                      {channel.status >= 2 ? 'On' : 'Off'}
+                      {channel.status >= 2 ? 'On' : 'Off' }
                     </Box>
                     <Button
                       icon="sync"
@@ -132,19 +128,19 @@ export const Apc = props => {
                         channel.status === 1 || channel.status === 3
                       )}
                       disabled={locked}
-                      onClick={() => act('channel', topicParams.auto)} />
+                      onClick={() => act(ref, 'channel', topicParams.auto)} />
                     <Button
                       icon="power-off"
                       content="On"
                       selected={!locked && channel.status === 2}
                       disabled={locked}
-                      onClick={() => act('channel', topicParams.on)} />
+                      onClick={() => act(ref, 'channel', topicParams.on)} />
                     <Button
                       icon="times"
                       content="Off"
                       selected={!locked && channel.status === 0}
                       disabled={locked}
-                      onClick={() => act('channel', topicParams.off)} />
+                      onClick={() => act(ref, 'channel', topicParams.off)} />
                   </Fragment>
                 )}>
                 {channel.powerLoad}
@@ -158,29 +154,33 @@ export const Apc = props => {
       </Section>
       <Section
         title="Misc"
-        buttons={!!data.siliconUser && (
+        buttons={(
           <Fragment>
-            {!!data.malfStatus && (
-              <Button
-                icon={malfStatus.icon}
-                content={malfStatus.content}
-                color="bad"
-                onClick={() => act(malfStatus.action)} />
+            {!!data.siliconUser && (
+              <Fragment>
+                {!!data.malfStatus && (
+                  <Button
+                    icon={malfStatus.icon}
+                    content={malfStatus.content}
+                    color="bad"
+                    onClick={() => act(ref, malfStatus.action)} />
+                )}
+                <Button
+                  icon="lightbulb-o"
+                  content="Overload"
+                  onClick={() => act(ref, 'overload')} />
+              </Fragment>
             )}
-            <Button
-              icon="lightbulb-o"
-              content="Overload"
-              onClick={() => act('overload')} />
           </Fragment>
         )}>
         <LabeledList.Item
           label="Cover Lock"
           buttons={(
             <Button
-              icon={data.coverLocked ? 'lock' : 'unlock'}
+              icon={data.coverLocked ? 'lock' : 'unlock' }
               content={data.coverLocked ? 'Engaged' : 'Disengaged'}
               disabled={locked}
-              onClick={() => act('cover')} />
+              onClick={() => act(ref, 'cover')} />
           )} />
         <LabeledList.Item
           label="Emergency Lighting"
@@ -189,7 +189,7 @@ export const Apc = props => {
               icon="lightbulb-o"
               content={data.emergencyLights ? 'Enabled' : 'Disabled'}
               disabled={locked}
-              onClick={() => act('emergency_lighting')} />
+              onClick={() => act(ref, 'emergency_lighting')} />
           )} />
         <LabeledList.Item
           label="Night Shift Lighting"
@@ -197,7 +197,8 @@ export const Apc = props => {
             <Button
               icon="lightbulb-o"
               content={data.nightshiftLights ? 'Enabled' : 'Disabled'}
-              onClick={() => act('toggle_nightshift')} />
+              disabled={locked}
+              onClick={() => act(ref, 'toggle_nightshift')} />
           )} />
       </Section>
     </Fragment>

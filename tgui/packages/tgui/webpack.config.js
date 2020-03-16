@@ -10,19 +10,11 @@ module.exports = (env = {}, argv) => {
     entry: {
       tgui: [
         path.resolve(__dirname, './styles/main.scss'),
-        path.resolve(__dirname, './styles/themes/cardtable.scss'),
-        path.resolve(__dirname, './styles/themes/malfunction.scss'),
-        path.resolve(__dirname, './styles/themes/ntos.scss'),
-        path.resolve(__dirname, './styles/themes/hackerman.scss'),
-        path.resolve(__dirname, './styles/themes/retro.scss'),
-        path.resolve(__dirname, './styles/themes/syndicate.scss'),
         path.resolve(__dirname, './index.js'),
       ],
     },
     output: {
-      path: argv.mode === 'production'
-        ? path.resolve(__dirname, './public')
-        : path.resolve(__dirname, './public/.tmp'),
+      path: path.resolve(__dirname, './public/bundles'),
       filename: '[name].bundle.js',
       chunkFilename: '[name].chunk.js',
     },
@@ -34,6 +26,7 @@ module.exports = (env = {}, argv) => {
       rules: [
         {
           test: /\.m?jsx?$/,
+          // exclude: /node_modules/,
           use: [
             {
               loader: 'babel-loader',
@@ -53,8 +46,6 @@ module.exports = (env = {}, argv) => {
                 plugins: [
                   '@babel/plugin-transform-jscript',
                   'babel-plugin-inferno',
-                  'babel-plugin-transform-remove-console',
-                  'common/string.babel-plugin.cjs',
                 ],
               },
             },
@@ -71,7 +62,9 @@ module.exports = (env = {}, argv) => {
             },
             {
               loader: 'css-loader',
-              options: {},
+              options: {
+                url: false,
+              },
             },
             {
               loader: 'sass-loader',
@@ -80,11 +73,41 @@ module.exports = (env = {}, argv) => {
           ],
         },
         {
-          test: /\.(png|jpg|svg)$/,
+          test: /\.css$/,
           use: [
             {
-              loader: 'url-loader',
-              options: {},
+              loader: ExtractCssChunks.loader,
+              options: {
+                hot: argv.hot,
+              },
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                url: false,
+              },
+            },
+          ],
+        },
+        {
+          test: /\.(png|jpg|gif|ico)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: 'images/[name].[ext]',
+              },
+            },
+          ],
+        },
+        {
+          test: /\.(ttf|woff|woff2|eot|svg)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: 'fonts/[name].[ext]',
+              },
             },
           ],
         },
@@ -92,16 +115,25 @@ module.exports = (env = {}, argv) => {
     },
     optimization: {
       noEmitOnErrors: true,
+      // splitChunks: {
+      //   cacheGroups: {
+      //     commons: {
+      //       test: /[\\/]node_modules[\\/]/,
+      //       name: 'vendor',
+      //       chunks: 'all',
+      //     },
+      //   },
+      // },
     },
     performance: {
       hints: false,
     },
+    // Unfortunately, source maps don't work with BYOND's IE.
     devtool: false,
     plugins: [
       new webpack.EnvironmentPlugin({
         NODE_ENV: env.NODE_ENV || argv.mode || 'development',
         WEBPACK_HMR_ENABLED: env.WEBPACK_HMR_ENABLED || argv.hot || false,
-        DEV_SERVER_IP: env.DEV_SERVER_IP || null,
       }),
       new ExtractCssChunks({
         filename: '[name].bundle.css',
@@ -164,7 +196,6 @@ module.exports = (env = {}, argv) => {
     if (argv.hot) {
       config.plugins.push(new webpack.HotModuleReplacementPlugin());
     }
-    config.devtool = 'cheap-module-source-map';
     config.devServer = {
       // Informational flags
       progress: false,
