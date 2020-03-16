@@ -2,7 +2,7 @@ SUBSYSTEM_DEF(nanoui)
 	name = "Nanoui"
 	wait = 9
 	flags = SS_NO_INIT
-	priority = FIRE_PRIORITY_NANOUI
+	priority = FIRE_PRIORITY_UI
 	runlevels = RUNLEVEL_LOBBY | RUNLEVELS_DEFAULT
 
 	var/list/currentrun = list()

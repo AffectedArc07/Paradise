@@ -17,7 +17,7 @@
   * optional master_ui datum/tgui The parent UI.
   * optional state datum/ui_state The state used to determine status.
  **/
-/datum/proc/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = FALSE, datum/tgui/master_ui = null, datum/ui_state/state = GLOB.default_state)
+/datum/proc/tgui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = FALSE, datum/tgui/master_ui = null, datum/topic_state/state = default_state)
 	return FALSE // Not implemented.
 
  /**
@@ -30,7 +30,7 @@
   *
   * return list Data to be sent to the UI.
  **/
-/datum/proc/ui_data(mob/user)
+/datum/proc/tgui_data(mob/user)
 	return list() // Not implemented.
 
 
@@ -45,10 +45,24 @@
   *
   * return bool If the UI should be updated or not.
  **/
-/datum/proc/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/proc/tgui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
 	if(!ui || ui.status != UI_INTERACTIVE)
 		return 1 // If UI is not interactive or usr calling Topic is not the UI user, bail.
 
+ /**
+  * public
+  *
+  * Called on an object when a tgui object is being created, allowing you to customise the html
+  * For example: inserting a custom stylesheet that you need in the head
+  *
+  * For this purpose, some tags are available in the html, to be parsed out with replacetext
+  * (customheadhtml) - Additions to the head tag
+  *
+  * required html the html base text
+  *
+ **/
+/datum/proc/tgui_base_html(html)
+	return html
 
  /**
   * private
@@ -57,7 +71,7 @@
   * This allows modules/datums to have the UI attached to them,
   * and be a part of another object.
  **/
-/datum/proc/ui_host(mob/user)
+/datum/proc/tgui_host(mob/user)
 	return src // Default src.
 
  /**
@@ -65,7 +79,7 @@
   *
   * Used to track UIs for a mob.
  **/
-/mob/var/list/open_uis = list()
+/mob/var/list/open_tguis = list()
  /**
   * public
   *
@@ -73,7 +87,7 @@
   *
   *
  **/
-/datum/proc/ui_close()
+/datum/proc/tgui_close()
 
  /**
   * verb
@@ -83,9 +97,9 @@
   *
   * required uiref ref The UI that was closed.
  **/
-/client/verb/uiclose(ref as text)
+/client/verb/tguiclose(ref as text)
 	// Name the verb, and hide it from the user panel.
-	set name = "uiclose"
+	set name = "tguiclose"
 	set hidden = 1
 
 	// Get the UI based on the ref.
