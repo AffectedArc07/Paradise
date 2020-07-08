@@ -21,6 +21,13 @@
 
 
 
+
+
+
+
+
+
+
 /client/vv_edit_var(var_name, var_value) //called whenever a var is edited
 	switch(var_name)
 		if("vars")
