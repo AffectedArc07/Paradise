@@ -135,14 +135,15 @@ GLOBAL_VAR(last_lighting_json_out)
 		var/list/lighting_json = list()
 		lighting_json["lighting_soft_threshold"] = LIGHTING_SOFT_THRESHOLD
 		// god this is disgusting
-		lighting_json["lighting_objects"] = list("corners"= list(
+		lighting_json["lighting_objects"]["corners"] = list(
 			list("available"="[myturf.corners[3] ? 1 : 0]", "mx"=cr.cache_mx, "r"=cr.cache_r,  "g"=cr.cache_g,  "b"=cr.cache_b),
 			list("available"="[myturf.corners[2] ? 1 : 0]", "mx"=cg.cache_mx, "r"=cg.cache_r,  "g"=cg.cache_g,  "b"=cg.cache_b),
 			list("available"="[myturf.corners[4] ? 1 : 0]", "mx"=cb.cache_mx, "r"=cb.cache_r,  "g"=cb.cache_g,  "b"=cb.cache_b),
 			list("available"="[myturf.corners[1] ? 1 : 0]", "mx"=ca.cache_mx, "r"=ca.cache_r,  "g"=ca.cache_g,  "b"=ca.cache_b)
-		))
+		)
 		GLOB.last_lighting_json_in = json_encode(lighting_json)
 		GLOB.last_lighting_json_out = call(RUST_G, "lighting_update")(json_encode(lighting_json))
+		world.log << json_encode(lighting_json)
 
 // Variety of overrides so the overlays don't get affected by weird things.
 
