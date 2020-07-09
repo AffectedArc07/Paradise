@@ -841,6 +841,13 @@ GLOBAL_PROTECT(AdminProcCaller)
 
 	GLOB.error_cache.showTo(usr)
 
+/client/verb/view_lighting_json()
+	set category = "Debug"
+	set name = "View Lighting JSON"
+
+	to_chat(usr, "<b>IN: </b>[GLOB.last_lighting_json_in]")
+	to_chat(usr, "<b>OUT: </b>[GLOB.last_lighting_json_out]")
+
 /client/proc/jump_to_ruin()
 	set category = "Debug"
 	set name = "Jump to Ruin"

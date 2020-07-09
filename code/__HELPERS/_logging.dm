@@ -194,4 +194,4 @@ GLOBAL_VAR_INIT(log_end, (world.system_type == UNIX ? ascii2text(13) : ""))
 	return "[key_name(src)] ([mob.x],[mob.y],[mob.z])"
 
 //this is only used here (for now)
-#undef RUST_G
+// #undef RUST_G // NOT IF I CAN HELP IT! -aa
