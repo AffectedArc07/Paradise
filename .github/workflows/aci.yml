@@ -1,0 +1,56 @@
+# Advanced Continuous Integration, or ACI for short
+#
+# This is a replacement for Travis CI as this is faster, and more reliable (especially as of recently), not to mention the feature additions
+# Written by AffectedArc07
+# Runs on ubuntu-18.04 since thats what our Travis configuration uses, and all our libraries expect that version
+
+name: ACI
+
+on:
+  pull_request:
+    branches: master
+
+
+jobs:
+  linters:
+    name: Run Linters
+    runs-on: ubuntu-18.04
+    steps:
+      # Checkout code
+      - uses: actions/checkout@v2
+
+      # Install python (Needed for some scripts)
+      - name: Setup Python
+        uses: actions/setup-python@v1.2.0
+
+      # Install PHP (needed for changelog processor)
+      - name: Setup PHP
+        uses: shivammathur/setup-php@2.4.0
+
+      # Install other dependencies (node, dreamchecker, etc)
+      - name: Install Dependencies
+        run: |
+          tools/travis/install_build_deps.sh
+          tools/travis/install_dreamchecker.sh
+
+      ### Now we begin actual CI stuff. These names are self-explanatory so I aint commenting all of them, -aa
+      - name: Test PHP Files
+        run: find . -name "*.php" -print0 | xargs -0 -n1 php -l
+
+      - name: Verify JSON Files
+        run: - find . -name "*.json" -not -path "*/node_modules/*" -print0 | xargs -0 python3 ./tools/travis/json_verifier.py
+
+      - name: Build NanoUI
+        run: tools/travis/build_nanoui.sh
+
+      - name: Build TGUI
+        run: tools/travis/build_tgui.sh
+
+      - name: Grep Checks
+        run: tools/travis/check_grep.sh
+
+      - name: Line Ending Checks
+        run: python3 tools/travis/check_line_endings.py
+
+      - name: Run DreamChecker
+        run: ~/dreamchecker
