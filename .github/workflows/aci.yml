@@ -25,7 +25,7 @@ jobs:
 
       # Install PHP (needed for changelog processor)
       - name: Setup PHP
-        uses: shivammathur/setup-php@2.4.0
+        uses: curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash
 
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
