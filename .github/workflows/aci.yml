@@ -23,10 +23,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1.2.0
 
-      # Install PHP (needed for changelog processor)
-      - name: Setup PHP
-        run: 'curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash'
-
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
         run: |
