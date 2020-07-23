@@ -23,15 +23,16 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1.2.0
 
+      # Install PHP (needed for changelog processor)
+      - name: Setup PHP
+        run: 'curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash'
+
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
         run: |
           tools/travis/install_build_deps.sh
           tools/travis/install_dreamchecker.sh
 
-      # Install PHP (needed for changelog processor)
-      - name: Setup PHP
-        run: 'curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash'
 
       ### Now we begin actual CI stuff. These names are self-explanatory so I aint commenting all of them, -aa
       - name: Test PHP Files
