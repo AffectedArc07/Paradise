@@ -1,4 +1,4 @@
-# Advanced Continuous Integration, or ACI for short
+# Actions Continuous Integration, or ACI for short
 #
 # This is a replacement for Travis CI as this is faster, and more reliable (especially as of recently), not to mention the feature additions
 # Written by AffectedArc07
@@ -31,7 +31,7 @@ jobs:
 
       # Install PHP (needed for changelog processor)
       - name: Setup PHP
-        run: curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash
+        run: 'curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash'
 
       ### Now we begin actual CI stuff. These names are self-explanatory so I aint commenting all of them, -aa
       - name: Test PHP Files
