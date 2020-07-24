@@ -26,6 +26,7 @@ jobs:
       - name: Install Dependencies
         run: |
           tools/travis/install_build_deps.sh
+          tools/github-actions/install_phpenv.sh
           tools/travis/install_dreamchecker.sh
 
       - name: Verify JSON Files
