@@ -50,3 +50,28 @@ jobs:
 
       - name: Run DreamChecker
         run: ~/dreamchecker
+
+  maps:
+    name: Compile All Maps
+    runs-on: ubuntu-18.04
+    steps:
+      # Checkout code
+      - uses: actions/checkout@v2
+
+      # Install BYOND dependencies
+      - name: Install BYOND Dependencies
+        run: tools/github-actions/install_byond_dependencies.sh
+
+      # Install BYOND itself
+      - name: Install BYOND
+        run: |
+          tools/travis/install_byond.sh
+          source $HOME/BYOND/byond/bin/byondsetup
+
+      # Generate list of maps to compile
+      - name: Generate Maplist
+        run: tools/travis/generate_maplist.sh
+
+      # Finally, compile the server
+      - name: Compile DM code (All maps included)
+        run: tools/travis/dm.sh -Mtravis_map_testing paradise.dme
