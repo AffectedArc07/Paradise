@@ -11,5 +11,4 @@ npm install --global yarn
 pip install --user PyYaml -q
 pip install --user beautifulsoup4 -q
 
-$HOME/.phpenv/bin/phpenv install $PHP_VERSION
 $HOME/.phpenv/bin/phpenv global $PHP_VERSION
