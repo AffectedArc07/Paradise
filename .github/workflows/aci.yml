@@ -25,8 +25,8 @@ jobs:
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
         run: |
-          tools/travis/install_build_deps.sh
           tools/github-actions/ci/install_phpenv.sh
+          tools/travis/install_build_deps.sh
           tools/travis/install_dreamchecker.sh
 
       # Now we run stuff. I am not commenting each line on here because the names are obvious -aa
