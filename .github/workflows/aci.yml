@@ -26,7 +26,7 @@ jobs:
       - name: Install Dependencies
         run: |
           tools/travis/install_build_deps.sh
-          tools/github-actions/install_phpenv.sh
+          tools/github-actions/ci/install_phpenv.sh
           tools/travis/install_dreamchecker.sh
 
       # Now we run stuff. I am not commenting each line on here because the names are obvious -aa
@@ -60,7 +60,7 @@ jobs:
 
       # Install BYOND dependencies
       - name: Install BYOND Dependencies
-        run: tools/github-actions/install_byond_dependencies.sh
+        run: tools/github-actions/ci/install_byond_dependencies.sh
 
       # Install BYOND itself
       - name: Install BYOND
