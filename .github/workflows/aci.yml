@@ -22,10 +22,15 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1.2.0
 
+      # Installs PHP (needed for the changelog script)
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+          with:
+          php-version: '5.6' # Make sure this value is kept in sync with _build_dependencies.sh
+
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
         run: |
-          tools/github-actions/ci/install_phpenv.sh
           tools/travis/install_build_deps.sh
           tools/travis/install_dreamchecker.sh
 

@@ -11,4 +11,6 @@ npm install --global yarn
 pip install --user PyYaml -q
 pip install --user beautifulsoup4 -q
 
-$HOME/.phpenv/bin/phpenv global $PHP_VERSION
+# /home/runner is created if this is running on GitHub actions, but not on travis
+# Therefore this line will only run on Travis
+[ ! -d "/path/to/dir" ] && phpenv global $PHP_VERSION
