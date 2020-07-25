@@ -22,12 +22,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1.2.0
 
-      # Installs PHP (needed for the changelog script)
-      - name: Install PHP
-        uses: nanasess/setup-php@master
-        with:
-          php-version: '5.6' # Make sure this value is kept in sync with _build_dependencies.sh
-
       # Install other dependencies (node, dreamchecker, etc)
       - name: Install Dependencies
         run: |
@@ -35,9 +29,6 @@ jobs:
           tools/travis/install_dreamchecker.sh
 
       # Now we run stuff. I am not commenting each line on here because the names are obvious -aa
-      - name: Validate PHP Files
-        run: find . -name "*.php" -print0 | xargs -0 -n1 php -l
-
       - name: Verify JSON Files
         run: find . -name "*.json" -not -path "*/node_modules/*" -print0 | xargs -0 python3 ./tools/travis/json_verifier.py
 
