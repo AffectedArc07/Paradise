@@ -9,5 +9,4 @@ This folder contains all the script and tools required for GitHub actions. If yo
 
 `ci`:
 
-- `install_byond_dependencies.sh` - A shell script for installing the dependencies for BYOND into a GitHub actions environment
-- `install_phpenv.sh` - A shell script for installing `phpenv` into a GitHub actions environment
+- `install_byond.sh` - A shell script for installing BYOND into a GitHub actions environment

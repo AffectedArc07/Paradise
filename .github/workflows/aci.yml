@@ -54,15 +54,9 @@ jobs:
       # Checkout code
       - uses: actions/checkout@v2
 
-      # Install BYOND dependencies
-      - name: Install BYOND Dependencies
-        run: tools/github-actions/ci/install_byond_dependencies.sh
-
-      # Install BYOND itself
+      # Install BYOND
       - name: Install BYOND
-        run: |
-          tools/travis/install_byond.sh
-          source $HOME/BYOND/byond/bin/byondsetup
+        run: tools/github-actions/ci/install_byond.sh
 
       # Generate list of maps to compile
       - name: Generate Maplist
