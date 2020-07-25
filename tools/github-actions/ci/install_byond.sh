@@ -19,6 +19,6 @@ rm byond.zip
 cd byond
 make here
 cd ~/
-
+export LD_LIBRARY_PATH="/usr/lib"
 source ~/BYOND/byond/bin/byondsetup
 echo "BYOND Installed"
