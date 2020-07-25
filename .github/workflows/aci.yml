@@ -24,7 +24,7 @@ jobs:
 
       # Installs PHP (needed for the changelog script)
       - name: Install PHP
-        uses: shivammathur/setup-php@v2
+        uses: nanasess/setup-php@master
         with:
           php-version: '5.6' # Make sure this value is kept in sync with _build_dependencies.sh
 
