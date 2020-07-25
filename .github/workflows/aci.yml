@@ -25,7 +25,7 @@ jobs:
       # Installs PHP (needed for the changelog script)
       - name: Install PHP
         uses: shivammathur/setup-php@v2
-          with:
+        with:
           php-version: '5.6' # Make sure this value is kept in sync with _build_dependencies.sh
 
       # Install other dependencies (node, dreamchecker, etc)
