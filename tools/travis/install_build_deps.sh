@@ -13,4 +13,9 @@ pip install --user beautifulsoup4 -q
 
 # /home/runner is created if this is running on GitHub actions, but not on travis
 # Therefore this line will only run on Travis
-[ ! -d "/home/runner" ] && phpenv global $PHP_VERSION
+if [ ! -d "/home/runner" ]
+then
+	phpenv global $PHP_VERSION
+else
+	echo "Running on GitHub actions. Skipping phpenv set"
+fi
