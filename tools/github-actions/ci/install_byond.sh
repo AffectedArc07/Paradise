@@ -19,6 +19,8 @@ rm byond.zip
 cd byond
 make here
 cd ~/
+# BYOND is garbo so needs baby treatment
 export LD_LIBRARY_PATH="/usr/lib"
+export MANPATH="/usr/man"
 source ~/BYOND/byond/bin/byondsetup
 echo "BYOND Installed"
