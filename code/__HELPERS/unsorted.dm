@@ -450,7 +450,6 @@ Turf and target are seperate in case you want to teleport some distance from a t
 			return M
 
 
-
 // Returns the atom sitting on the turf.
 // For example, using this on a disk, which is in a bag, on a mob, will return the mob because it's on the turf.
 /proc/get_atom_on_turf(var/atom/movable/M)
