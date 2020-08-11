@@ -439,13 +439,6 @@ Turf and target are seperate in case you want to teleport some distance from a t
 /proc/modulus(var/M)
 
 
-
-
-
-
-
-
-
 	if(M >= 0)
 		return M
 	if(M < 0)
