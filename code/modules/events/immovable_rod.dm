@@ -94,3 +94,9 @@ In my current plan for it, 'solid' will be defined as anything with density == 1
 	tiles_moved++
 	if(get_dist(oldloc, loc) > 2 && tiles_moved > 10) // We went on a journey, commit sudoku
 		qdel(src)
+
+
+/obj/effect/immovablerod/admin/Move()
+	. = ..()
+	if(loc == destination)
+		qdel(src)

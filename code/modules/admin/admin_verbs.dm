@@ -117,7 +117,8 @@ GLOBAL_LIST_INIT(admin_verbs_event, list(
 	/client/proc/fax_panel,
 	/client/proc/event_manager_panel,
 	/client/proc/modify_goals,
-	/client/proc/outfit_manager
+	/client/proc/outfit_manager,
+	/client/proc/precise_rod
 	))
 
 GLOBAL_LIST_INIT(admin_verbs_spawn, list(
