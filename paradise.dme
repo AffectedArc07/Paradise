@@ -1326,6 +1326,7 @@
 #include "code\modules\buildmode\submodes\save.dm"
 #include "code\modules\buildmode\submodes\throwing.dm"
 #include "code\modules\buildmode\submodes\variable_edit.dm"
+#include "code\modules\client\anticheat.dm"
 #include "code\modules\client\asset_cache.dm"
 #include "code\modules\client\client defines.dm"
 #include "code\modules\client\client procs.dm"

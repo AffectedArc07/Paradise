@@ -66,8 +66,15 @@
 		return
 
 	if(next_click > world.time)
+		client.ac.handle_clickspam(src)
 		return
 	changeNext_click(1)
+
+	// This returns TRUE if the client cannot see the atom it tried to click on
+	if(client.ac.handle_vischeck(src, A))
+		return
+
+	client.ac.handle_aimbot(params)
 
 	var/list/modifiers = params2list(params)
 	var/dragged = modifiers["drag"]
