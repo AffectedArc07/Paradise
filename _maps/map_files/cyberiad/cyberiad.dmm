@@ -2998,7 +2998,6 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/storage/box/buck,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "vault";
