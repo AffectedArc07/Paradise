@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="extra.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>&#x2F;atom - Paradise Code Docs</title>
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="index.html" class="brand-logo">&nbsp;Paradise Code Docs</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                
+                <li><a href="index.html#modules">Modules</a></li>
+                <li><a href="index.html#types">Types</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+<h1>/<a href="atom.html">atom</a><aside> inherits /<a href="datum.html">datum</a></aside>
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/alternate_appearance.dm#L70">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;alternate_appearance.dm 70"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2><a href="atom.html#var">Jump To Var Details</a></td></tr>
+            <tr><th><a href="atom.html#var/container_type">container_type</a></th><td>Chemistry.</td></tr>
+            <tr><th><a href="atom.html#var/dont_save">dont_save</a></th><td>what icon the mob uses for speechbubbles</td></tr><tr><td colspan="2"><h2>Procs</h2><a href="atom.html#proc">Jump To Proc Details</a></td></tr>
+            <tr><th><a href="atom.html#proc/acid_act">acid_act</a></th><td>Respond to acid being used on our atom</td></tr>
+            <tr><th><a href="atom.html#proc/after_slip">after_slip</a></th><td>Base proc, intended to be overriden.</td></tr>
+            <tr><th><a href="atom.html#proc/contents_tgui_distance">contents_tgui_distance</a></th><td>public</td></tr>
+            <tr><th><a href="atom.html#proc/get_all_adjacent_turfs">get_all_adjacent_turfs</a></th><td>Proc which gets all adjacent turfs to <code>src</code>, including the turf that <code>src</code> is on.</td></tr>
+            <tr><th><a href="atom.html#proc/is_drainable">is_drainable</a></th><td>Is this atom drainable of reagents</td></tr>
+            <tr><th><a href="atom.html#proc/is_drawable">is_drawable</a></th><td>Can we draw from this atom with an injectable atom</td></tr>
+            <tr><th><a href="atom.html#proc/is_injectable">is_injectable</a></th><td>Is this atom injectable into other atoms</td></tr>
+            <tr><th><a href="atom.html#proc/is_open_container">is_open_container</a></th><td>Convenience proc to see if a container is open for chemistry handling</td></tr>
+            <tr><th><a href="atom.html#proc/is_refillable">is_refillable</a></th><td>Can this atoms reagents be refilled</td></tr>
+            <tr><th><a href="atom.html#proc/mech_melee_attack">mech_melee_attack</a></th><td>Handle melee attack by a mech</td></tr>
+            <tr><th><a href="atom.html#proc/shuttleRotate">shuttleRotate</a></th><td>Base proc</td></tr></table>
+    <h2 id="var">Var Details</h2><h5 id="var/container_type"><aside class="declaration">var </aside>container_type
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L21">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 21"/></a></h5>
+        <p>Chemistry.</p><h5 id="var/dont_save"><aside class="declaration">var </aside>dont_save
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L18">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 18"/></a></h5>
+        <p>what icon the mob uses for speechbubbles</p><h2 id="proc">Proc Details</h2><h5 id="proc/acid_act"><aside class="declaration">proc </aside>acid_act<aside>(acidpwr, acid_volume) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L825">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 825"/></a></aside>
+        </h5>
+        <p>Respond to acid being used on our atom</p>
+<p>Default behaviour is to send COMSIG_ATOM_ACID_ACT and return</p><h5 id="proc/after_slip"><aside class="declaration">proc </aside>after_slip<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/carbon.html">carbon</a>/<a href="mob/living/carbon/human.html">human</a>/H) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L429">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 429"/></a></aside>
+        </h5>
+        <p>Base proc, intended to be overriden.</p>
+<p>This should only be called from one place: inside the slippery component.
+Called after a human mob slips on this atom.</p>
+<p>If you want the person who slipped to have something special done to them, put it here.</p><h5 id="proc/contents_tgui_distance"><aside class="declaration">proc </aside>contents_tgui_distance<aside>(src_object, /<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/user) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/modules/tgui/states.dm#L89">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;tgui&#x2F;states.dm 89"/></a></aside>
+        </h5>
+        <p>public</p>
+<p>Check the distance for a living mob.
+Really only used for checks outside the context of a mob.
+Otherwise, use shared_living_ui_distance().</p>
+<p>required src_object The object which owns the UI.
+required user mob The mob who opened/is using the UI.</p>
+<p>return UI_state The state of the UI.</p><h5 id="proc/get_all_adjacent_turfs"><aside class="declaration">proc </aside>get_all_adjacent_turfs<aside>() 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/__HELPERS/unsorted.dm#L2018">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__HELPERS&#x2F;unsorted.dm 2018"/></a></aside>
+        </h5>
+        <p>Proc which gets all adjacent turfs to <code>src</code>, including the turf that <code>src</code> is on.</p>
+<p>This is similar to doing <code>for(var/turf/T in range(1, src))</code>. However it is slightly more performant.
+Additionally, the above proc becomes more costly the more atoms there are nearby. This proc does not care about that.</p><h5 id="proc/is_drainable"><aside class="declaration">proc </aside>is_drainable<aside>() 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L254">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 254"/></a></aside>
+        </h5>
+        <p>Is this atom drainable of reagents</p><h5 id="proc/is_drawable"><aside class="declaration">proc </aside>is_drawable<aside>(/<a href="mob.html">mob</a>/user, allowmobs) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L246">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 246"/></a></aside>
+        </h5>
+        <p>Can we draw from this atom with an injectable atom</p><h5 id="proc/is_injectable"><aside class="declaration">proc </aside>is_injectable<aside>(/<a href="mob.html">mob</a>/user, allowmobs) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L242">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 242"/></a></aside>
+        </h5>
+        <p>Is this atom injectable into other atoms</p><h5 id="proc/is_open_container"><aside class="declaration">proc </aside>is_open_container<aside>() 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L238">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 238"/></a></aside>
+        </h5>
+        <p>Convenience proc to see if a container is open for chemistry handling</p><h5 id="proc/is_refillable"><aside class="declaration">proc </aside>is_refillable<aside>() 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L250">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 250"/></a></aside>
+        </h5>
+        <p>Can this atoms reagents be refilled</p><h5 id="proc/mech_melee_attack"><aside class="declaration">proc </aside>mech_melee_attack<aside>(/<a href="obj.html">obj</a>/<a href="obj/mecha.html">mecha</a>/M) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/game/atoms.dm#L191">
+        <img src="git.png" width="16" height="16" title="code&#x2F;game&#x2F;atoms.dm 191"/></a></aside>
+        </h5>
+        <p>Handle melee attack by a mech</p><h5 id="proc/shuttleRotate"><aside class="declaration">proc </aside>shuttleRotate<aside>(rotation, params) 
+        
+    
+            <a href="https://github.com/AffectedArc07/Paradise/blob/68ced2241ba6ab0af6e58ff8dd010af71491adfd/code/modules/shuttle/shuttle_rotate.dm#L8">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;shuttle&#x2F;shuttle_rotate.dm 8"/></a></aside>
+        </h5>
+        <p>Base proc</p></main>
+    <footer class="page-footer transparent">
+        <div class="footer-copyright blue">
+            <div class="container">
+                
+                paradise.dme at commit
+                <a class="white-text" href="https://github.com/AffectedArc07/Paradise/tree/68ced2241ba6ab0af6e58ff8dd010af71491adfd">68ced22</a>
+                on branch master &mdash; <a class="white-text" href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.1</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
