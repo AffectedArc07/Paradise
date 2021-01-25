@@ -2081,3 +2081,34 @@ GLOBAL_DATUM_INIT(dview_mob, /mob/dview, new)
 	))
 	query_accesslog.warn_execute()
 	qdel(query_accesslog)
+
+// Formats a colour span for an admin based on their rank
+// Uses the same colours as discord does, that way its lightmode and darkmode compatible
+/proc/format_rank_colour_span(client/C)
+	// If we dont have a client, or the client doesnt have a holder, why are we even here
+	ASSERT(C?.holder)
+
+	var/color
+	switch(C.holder.rank)
+		// These two may as well be the same. Head colour takes priority over host colour
+		if("Head of Staff", "Head of Staff and Server Host")
+			color = "#e74c3c"
+		if("Maintainer")
+			color = "#992d22"
+		// Same classification
+		if("Server Host", "Server Dev")
+			color = "#1abc9c"
+		if("Community Manager")
+			color = "#e91e63"
+		if("Game Admin")
+			color = "#238afa"
+		if("Trial Admin")
+			color = "#7fb6fc"
+		// Mentors and PRRs are not included in this list.
+		// Mainly because mentor is yellow and that will look horrible on white
+		// And PRR displays in mentors and it would look weird having just those coloured
+
+	if(!color)
+		return C.holder.rank // Just leave how it is
+
+	return "<font color='[color]'>[C.holder.rank]</font>"

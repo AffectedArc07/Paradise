@@ -83,7 +83,7 @@
 				if(C.holder.big_brother && !check_rights(R_PERMISSIONS, 0))		// normal admins can't see BB
 					continue
 
-				msg += "\t[C] is a [C.holder.rank]"
+				msg += "\t[C] is a [format_rank_colour_span(C)]"
 
 				if(C.holder.fakekey)
 					msg += " <i>(as [C.holder.fakekey])</i>"
