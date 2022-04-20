@@ -55,7 +55,7 @@
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "av" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "aw" = (
 /obj/structure/computerframe,
@@ -63,7 +63,7 @@
 /area/shuttle/abandoned)
 "ax" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "aA" = (
 /obj/machinery/door/airlock/public/glass{
@@ -75,7 +75,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "aC" = (
 /obj/structure/chair/comfy/shuttle{
@@ -100,7 +100,7 @@
 /area/shuttle/abandoned)
 "aH" = (
 /obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "aJ" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -140,7 +140,7 @@
 /area/shuttle/abandoned)
 "aP" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_x = 27
 	},
 /turf/simulated/floor/mineral/titanium,
@@ -227,7 +227,7 @@
 /area/shuttle/abandoned)
 "bm" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_x = 27
 	},
 /obj/machinery/light{
@@ -285,7 +285,7 @@
 /obj/effect/decal/cleanable/blood{
 	amount = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "by" = (
 /obj/machinery/door_control{
@@ -304,7 +304,7 @@
 /area/shuttle/abandoned)
 "bB" = (
 /obj/effect/decal/remains/human,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/abandoned)
 "bC" = (
 /obj/machinery/door/poddoor/multi_tile/two_tile_ver{

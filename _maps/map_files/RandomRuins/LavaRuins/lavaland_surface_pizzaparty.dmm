@@ -14,11 +14,7 @@
 /area/ruin/unpowered/misc_lavaruin)
 "e" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "f" = (
 /obj/structure/table/wood,
@@ -58,11 +54,7 @@
 "j" = (
 /obj/item/reagent_containers/food/snacks/mushroompizzaslice,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "k" = (
 /obj/structure/table/wood,
@@ -91,11 +83,7 @@
 "m" = (
 /obj/item/chair/wood/wings,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "n" = (
 /obj/structure/glowshroom/single,
@@ -235,11 +223,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "D" = (
 /obj/structure/table/wood,
@@ -288,20 +272,12 @@
 "I" = (
 /obj/item/kitchen/utensil/fork,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "J" = (
 /obj/structure/glowshroom/single,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "K" = (
 /obj/structure/chair/wood/wings{
@@ -318,11 +294,7 @@
 "L" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "M" = (
 /obj/effect/decal/cleanable/dirt,
@@ -359,11 +331,7 @@
 	},
 /area/ruin/unpowered/misc_lavaruin)
 "Q" = (
-/turf/simulated/floor/plating{
-	nitrogen = 23;
-	oxygen = 14;
-	temperature = 300
-	},
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 
 (1,1,1) = {"

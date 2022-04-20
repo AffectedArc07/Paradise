@@ -7,7 +7,7 @@
 /area/shuttle/escape)
 "ac" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "af" = (
 /obj/machinery/computer/emergency_shuttle,
@@ -167,7 +167,7 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "aJ" = (
 /obj/structure/chair{
@@ -244,7 +244,7 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "aU" = (
 /obj/structure/table,
@@ -351,14 +351,14 @@
 /obj/structure/window/full/shuttle{
 	icon_state = "14"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "bm" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle{
 	icon_state = "17"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "bn" = (
 /obj/machinery/door/airlock/medical/glass{

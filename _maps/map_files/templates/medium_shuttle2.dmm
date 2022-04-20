@@ -129,13 +129,13 @@
 	})
 "x" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
 "y" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -279,7 +279,7 @@
 /obj/machinery/power/smes/magical{
 	name = "super smes"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})

@@ -7,7 +7,7 @@
 /area/shuttle/escape)
 "ac" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "ae" = (
 /obj/structure/table/reinforced,
@@ -362,7 +362,7 @@
 	id_tag = "s_docking_airlock"
 	},
 /obj/structure/fans/tiny,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "bj" = (
 /obj/machinery/door/airlock/security/glass{
@@ -399,7 +399,7 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "bp" = (
 /obj/structure/table/reinforced,
@@ -493,7 +493,7 @@
 	timid = 1;
 	width = 29
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "bE" = (
 /turf/simulated/floor/plasteel,

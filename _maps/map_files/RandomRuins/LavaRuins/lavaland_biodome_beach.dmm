@@ -59,7 +59,7 @@
 	name = "Bar Storage"
 	},
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "am" = (
 /obj/structure/table,
@@ -74,7 +74,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "ao" = (
 /obj/structure/sink{
@@ -85,7 +85,7 @@
 	pixel_x = 28
 	},
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "ap" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -97,7 +97,7 @@
 /area/ruin/powered/beach)
 "ar" = (
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "as" = (
 /obj/machinery/chem_dispenser/beer,
@@ -140,7 +140,7 @@
 	name = "Restroom"
 	},
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "az" = (
 /obj/item/clothing/accessory/necklace/dope,
@@ -171,7 +171,7 @@
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand,
 /obj/item/flashlight/lantern,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "aI" = (
 /obj/machinery/vending/dinnerware,
@@ -208,7 +208,7 @@
 	name = "Bar"
 	},
 /obj/effect/turf_decal/sand,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "aU" = (
 /obj/effect/overlay/palmtree_l,
@@ -432,7 +432,7 @@
 /area/ruin/powered/beach)
 "mh" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/beach)
 "pI" = (
 /obj/machinery/door/airlock/hatch{

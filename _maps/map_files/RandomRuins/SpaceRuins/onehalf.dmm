@@ -55,7 +55,7 @@
 "ah" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/dorms_med)
 "ai" = (
 /obj/structure/lattice,
@@ -111,7 +111,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "ar" = (
 /turf/simulated/wall,
@@ -200,7 +200,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "aE" = (
 /obj/structure/disposalpipe/trunk,
@@ -259,7 +259,7 @@
 	id_tag = "bayint1";
 	name = "mining drone bay blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "aN" = (
 /obj/machinery/door_control{
@@ -294,7 +294,7 @@
 	id_tag = "bayint2";
 	name = "mining drone bay blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "aP" = (
 /obj/structure/disposalpipe/segment,
@@ -302,7 +302,7 @@
 	id_tag = "bayint3";
 	name = "mining drone bay blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "aQ" = (
 /obj/machinery/door_control{
@@ -337,7 +337,7 @@
 	id_tag = "bayint4";
 	name = "mining drone bay blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "aS" = (
 /obj/structure/disposalpipe/trunk,
@@ -358,7 +358,7 @@
 "aU" = (
 /obj/item/stack/sheet/metal,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "aV" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -438,7 +438,7 @@
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "bd" = (
 /obj/structure/disposalpipe/segment{
@@ -516,7 +516,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "bj" = (
 /obj/structure/disposalpipe/segment{
@@ -615,19 +615,19 @@
 	dir = 8
 	},
 /obj/machinery/disposal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "bt" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/drone_bay)
 "bu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "bv" = (
 /obj/structure/disposalpipe/segment{
@@ -738,7 +738,7 @@
 /turf/simulated/floor/plasteel/airless,
 /area/ruin/onehalf/hallway)
 "bM" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "bN" = (
 /obj/structure/disposalpipe/trunk{
@@ -771,7 +771,7 @@
 /area/ruin/onehalf/abandonedbridge)
 "bR" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "bS" = (
 /obj/structure/disposalpipe/segment,
@@ -788,7 +788,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/item/stack/rods,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "bX" = (
 /turf/simulated/wall/r_wall,
@@ -799,7 +799,7 @@
 	},
 /obj/item/shard,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "ca" = (
 /obj/structure/disposalpipe/segment,
@@ -817,7 +817,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cd" = (
 /obj/structure/table,
@@ -866,7 +866,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "ck" = (
 /obj/structure/girder/reinforced,
@@ -874,7 +874,7 @@
 /area/space/nearstation)
 "cl" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space/nearstation)
 "cm" = (
 /obj/structure/lattice,
@@ -904,7 +904,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cp" = (
 /obj/structure/disposalpipe/segment{
@@ -967,7 +967,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cv" = (
 /obj/item/stack/rods,
@@ -996,7 +996,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "cA" = (
 /obj/structure/disposalpipe/trunk{
@@ -1029,7 +1029,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cE" = (
 /obj/item/stack/tile/wood,
@@ -1080,7 +1080,7 @@
 "cL" = (
 /obj/item/crowbar,
 /obj/item/multitool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cM" = (
 /obj/structure/safe/floor,
@@ -1090,7 +1090,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/rum,
 /obj/item/reagent_containers/food/drinks/bottle/rum,
 /obj/item/folder/syndicate/blue,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cN" = (
 /obj/structure/chair/comfy/black{
@@ -1129,7 +1129,7 @@
 "cU" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "cV" = (
 /obj/structure/table,
@@ -1161,7 +1161,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "cZ" = (
 /obj/structure/lattice,
@@ -1220,7 +1220,7 @@
 "dj" = (
 /obj/structure/grille,
 /obj/item/shard,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/hallway)
 "dk" = (
 /obj/structure/grille,
@@ -1237,7 +1237,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "dl" = (
 /obj/structure/grille,
@@ -1252,7 +1252,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "dm" = (
 /obj/structure/grille,
@@ -1273,7 +1273,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "dn" = (
 /obj/structure/grille,
@@ -1290,7 +1290,7 @@
 	id_tag = "onehalf bridge";
 	name = "bridge blast door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/onehalf/abandonedbridge)
 "do" = (
 /obj/structure/lattice,

@@ -257,7 +257,7 @@
 /area/space)
 "zF" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "zP" = (
 /obj/structure/rack{
@@ -396,7 +396,7 @@
 /turf/simulated/floor/plating/airless,
 /area/ruin/unpowered)
 "KD" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "KS" = (
 /turf/simulated/floor/plating/airless,
@@ -504,7 +504,7 @@
 /area/ruin/unpowered)
 "Tt" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "TM" = (
 /obj/structure/chair/office/dark{

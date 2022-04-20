@@ -83,7 +83,7 @@
 /area/space)
 "z" = (
 /obj/item/stack/sheet/metal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space)
 "B" = (
 /obj/structure/lattice,
@@ -110,7 +110,7 @@
 /turf/space,
 /area/space)
 "F" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space)
 "G" = (
 /obj/random/toolbox,
@@ -139,14 +139,14 @@
 	pixel_y = -24
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space)
 "Q" = (
 /obj/effect/decal/cleanable/shreds{
 	pixel_x = 4;
 	pixel_y = 3
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space)
 "T" = (
 /obj/structure/girder,
@@ -164,7 +164,7 @@
 /area/space)
 "Y" = (
 /obj/item/shard,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space)
 "Z" = (
 /obj/item/stack/sheet/metal,

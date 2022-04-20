@@ -13,7 +13,7 @@
 /area/shuttle/transport)
 "d" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/transport)
 "h" = (
 /obj/machinery/light/spot{
@@ -43,7 +43,7 @@
 /obj/machinery/door/airlock/titanium{
 	id_tag = "s_docking_airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/transport)
 "m" = (
 /turf/simulated/floor/mineral/titanium/blue,
@@ -62,7 +62,7 @@
 	timid = 1;
 	width = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/transport)
 "q" = (
 /obj/structure/closet/crate,

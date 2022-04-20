@@ -68,15 +68,9 @@
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
 "dH" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun{
-	pixel_x = 3;
-	pixel_y = -3
+/obj/machinery/door/airlock/command{
+	name = "Command Center";
+	req_access_txt = "19"
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
@@ -140,13 +134,6 @@
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
-"ir" = (
-/obj/structure/closet/emcloset,
-/obj/machinery/light/spot{
-	dir = 1
-	},
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/administration)
 "iz" = (
 /obj/machinery/porta_turret{
 	installation = /obj/item/gun/energy/gun
@@ -197,12 +184,6 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/shuttle/administration)
-"pQ" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/administration)
 "qQ" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_y = 25
@@ -220,12 +201,6 @@
 	req_access_txt = "19"
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"rb" = (
-/obj/machinery/door/window/brigdoor/southleft{
-	req_one_access_txt = "2;19"
-	},
-/turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/administration)
 "sq" = (
 /obj/structure/table/reinforced,
@@ -266,7 +241,6 @@
 	name = "Airlock Blast Door Control";
 	pixel_x = 5;
 	pixel_y = 35;
-	req_access = null;
 	req_access_txt = "19"
 	},
 /obj/structure/chair/comfy/shuttle{
@@ -282,11 +256,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/airless,
-/area/shuttle/administration)
-"uY" = (
-/obj/structure/window/reinforced,
-/obj/structure/table/reinforced,
-/turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/administration)
 "vk" = (
 /turf/simulated/wall/mineral/titanium,
@@ -322,12 +291,6 @@
 /obj/item/clothing/head/helmet/alt,
 /obj/item/clothing/suit/armor/bulletproof,
 /obj/item/clothing/head/helmet/alt,
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"wH" = (
-/obj/machinery/light/spot{
-	dir = 8
-	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
 "wQ" = (
@@ -426,22 +389,6 @@
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
-"Bc" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/shield/riot,
-/obj/item/shield/riot{
-	pixel_x = 2;
-	pixel_y = -4
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
 "Bj" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external{
@@ -454,17 +401,13 @@
 	name = "Blast Door";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "Bn" = (
 /obj/machinery/door/window/brigdoor/southleft{
 	req_one_access_txt = "2;19"
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"Bq" = (
-/obj/structure/sign/nosmoking_2,
-/turf/simulated/wall/mineral/titanium,
 /area/shuttle/administration)
 "BZ" = (
 /obj/machinery/light/spot,
@@ -489,16 +432,6 @@
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/administration)
-"Du" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
 "DZ" = (
 /obj/machinery/light/spot,
 /obj/structure/closet/emcloset,
@@ -518,21 +451,6 @@
 /obj/item/gun/energy/gun{
 	pixel_x = 3;
 	pixel_y = -3
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"Fo" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/gun/energy/immolator/multi{
-	pixel_y = -3
-	},
-/obj/item/gun/energy/immolator/multi,
-/obj/item/gun/energy/immolator/multi{
-	pixel_y = 3
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
@@ -572,28 +490,6 @@
 /obj/item/gun/projectile/shotgun/riot,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
-"Gx" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
-/obj/docking_port/mobile{
-	dir = 2;
-	dwidth = 9;
-	height = 18;
-	id = "admin";
-	name = "armory";
-	roundstart_move = "cc_bay_1";
-	timid = 1;
-	width = 19
-	},
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "asclblast";
-	name = "Blast Door";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/administration)
 "Gy" = (
 /obj/structure/chair{
 	dir = 1
@@ -628,12 +524,6 @@
 /obj/machinery/suit_storage_unit/standard_unit,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
-"Ke" = (
-/obj/machinery/door/window/brigdoor/southright{
-	req_one_access_txt = "2;19"
-	},
-/turf/simulated/floor/mineral/titanium/blue,
-/area/shuttle/administration)
 "Kh" = (
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
@@ -650,19 +540,6 @@
 /obj/item/clothing/head/helmet/alt,
 /obj/item/clothing/suit/armor/bulletproof,
 /obj/item/clothing/head/helmet/alt,
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"Lh" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/item/gun/energy/ionrifle{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/gun/energy/ionrifle,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
 "LK" = (
@@ -724,7 +601,7 @@
 /area/shuttle/administration)
 "NQ" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "Op" = (
 /obj/structure/dispenser/oxygen,
@@ -742,22 +619,6 @@
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
-"Pn" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/suit/armor/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
 "PR" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -767,20 +628,6 @@
 	name = "Armory Internal Shutters";
 	pixel_x = -26;
 	req_access_txt = "3"
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"PS" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/gun/energy/gun/nuclear{
-	pixel_y = -3
-	},
-/obj/item/gun/energy/gun/nuclear,
-/obj/item/gun/energy/gun/nuclear{
-	pixel_y = 3
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
@@ -803,13 +650,8 @@
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
 "TD" = (
-/obj/machinery/door/airlock/command{
-	name = "Command Center";
-	req_access = null;
-	req_access_txt = "19"
-	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
+/turf/space,
+/area/space)
 "TF" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -867,26 +709,13 @@
 	name = "Blast Door";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "VC" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Shuttle Armory";
 	req_access_txt = "3"
 	},
-/turf/simulated/floor/mineral/plastitanium/red,
-/area/shuttle/administration)
-"VQ" = (
-/obj/structure/rack,
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/gun/energy/disabler{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/gun/energy/disabler,
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/administration)
 "WV" = (
@@ -1007,11 +836,11 @@ vk
 Ns
 mw
 mw
-mw
-mw
-fo
-vk
-vk
+TD
+TD
+TD
+TD
+TD
 TD
 NQ
 NQ
@@ -1027,12 +856,12 @@ vk
 bi
 Cl
 vy
-Ou
-mw
-mw
-vk
-cV
-Kh
+TD
+TD
+TD
+TD
+TD
+TD
 Kh
 Kh
 Bn
@@ -1047,12 +876,12 @@ vk
 NQ
 NQ
 NQ
-NQ
-gd
-NQ
-vk
-xQ
-Kh
+TD
+TD
+TD
+TD
+TD
+TD
 hN
 Kh
 Pe
@@ -1067,12 +896,12 @@ vk
 oY
 mw
 mw
-mw
-mw
-Ur
-kf
-vW
-al
+TD
+TD
+TD
+TD
+TD
+TD
 aI
 LK
 TF
@@ -1087,105 +916,50 @@ UX
 mw
 mw
 mw
-mw
-mw
-mw
-EQ
-mw
-mw
-mw
-mw
-rb
-Kh
+TD
+TD
+TD
+TD
+TD
+TD
+yg
+yF
+vk
+NQ
 Kh
 Kh
 fQ
 NQ
 "}
 (10,1,1) = {"
-Gx
 mw
 mw
-mw
-mw
-mw
-mw
-EQ
-mw
-mw
-mw
-mw
-Ke
+fo
+vk
+vk
+dH
+TD
+TD
+TD
+TD
+eL
 Kh
+PR
+PV
 Kh
 Kh
 Kh
 NQ
 "}
 (11,1,1) = {"
+Ou
+mw
+mw
 vk
-oY
-mw
-mw
-mw
-mw
+cV
+Kh
 Hc
 kf
-ir
-pQ
-pQ
-pQ
-uY
-Kh
-Kh
-Kh
-BZ
-vk
-"}
-(12,1,1) = {"
-vk
-vk
-Bq
-yg
-VC
-yg
-yF
-vk
-NQ
-NQ
-NQ
-vk
-vk
-Bq
-VC
-NF
-vk
-vk
-"}
-(13,1,1) = {"
-vk
-Kh
-wH
-eL
-Kh
-eL
-Kh
-PR
-PV
-PS
-Fo
-wH
-VQ
-Bc
-Kh
-Kh
-AH
-vk
-"}
-(14,1,1) = {"
-NQ
-Kh
-dH
 Ni
 Kh
 FT
@@ -1194,24 +968,79 @@ Kh
 Kh
 Kh
 Kh
-Kh
-Lh
-Pn
-Kh
-Kh
-Kh
-NQ
+BZ
+vk
 "}
-(15,1,1) = {"
+(12,1,1) = {"
 NQ
+gd
+NQ
+vk
+xQ
 Kh
-Du
+TD
+TD
 Gn
 Kh
 df
 wG
 Kh
 Kh
+VC
+NF
+vk
+vk
+"}
+(13,1,1) = {"
+mw
+mw
+Ur
+kf
+vW
+al
+TD
+TD
+XL
+Kh
+xF
+Ki
+Kh
+Kh
+Kh
+Kh
+AH
+vk
+"}
+(14,1,1) = {"
+mw
+mw
+mw
+EQ
+yg
+VC
+TD
+TD
+Kh
+fF
+Kh
+Kh
+fF
+iz
+Kh
+Kh
+Kh
+NQ
+"}
+(15,1,1) = {"
+mw
+mw
+mw
+EQ
+eL
+Kh
+TD
+TD
+TD
 Kh
 Kh
 Kh
@@ -1226,12 +1055,12 @@ NQ
 NQ
 Kh
 Fd
-XL
-Kh
-xF
-Ki
-Kh
-Kh
+TD
+TD
+TD
+TD
+TD
+TD
 Kh
 Kh
 Kh
@@ -1246,12 +1075,12 @@ NQ
 vk
 fF
 Kh
-Kh
-fF
-Kh
-Kh
-fF
-iz
+TD
+TD
+TD
+TD
+TD
+TD
 yu
 sq
 WV

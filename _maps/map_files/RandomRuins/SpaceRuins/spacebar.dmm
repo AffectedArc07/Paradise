@@ -11,7 +11,7 @@
 "ad" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ae" = (
 /turf/simulated/wall,
@@ -19,7 +19,7 @@
 "af" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "ag" = (
 /turf/simulated/floor/plating/asteroid/airless,
@@ -37,7 +37,7 @@
 /area/ruin/powered)
 "ak" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "am" = (
 /turf/simulated/wall,
@@ -228,7 +228,7 @@
 "aQ" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Space Bar"
 	})
@@ -241,7 +241,7 @@
 	})
 "aS" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Space Bar"
 	})
@@ -397,28 +397,28 @@
 	})
 "bn" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "bo" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "bq" = (
 /obj/machinery/door/poddoor/preopen{
 	id_tag = "pod cycle";
 	name = "airlock dock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "br" = (
 /obj/machinery/door/poddoor{
 	id_tag = "pod cycle";
 	name = "airlock dock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "bt" = (
 /obj/effect/decal/warning_stripes/south,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 
 (1,1,1) = {"
@@ -1154,7 +1154,7 @@ ai
 ag
 ag
 aQ
-aT
+as
 aQ
 ag
 ag
@@ -1196,7 +1196,7 @@ ai
 ag
 ag
 aR
-aT
+as
 aQ
 ag
 ag

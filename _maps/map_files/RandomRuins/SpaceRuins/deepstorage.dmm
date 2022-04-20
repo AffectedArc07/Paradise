@@ -802,7 +802,7 @@
 	name = "Bunker Door";
 	tag = "inner"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ca" = (
 /turf/simulated/floor/plating,
@@ -811,13 +811,13 @@
 /obj/machinery/camera{
 	network = list("Bunker1")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "cc" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "cd" = (
 /obj/machinery/door/poddoor{
@@ -825,7 +825,7 @@
 	name = "Bunker Door";
 	tag = "outer"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ce" = (
 /turf/simulated/floor/plating/asteroid/airless,
@@ -2546,8 +2546,8 @@ bO
 bU
 ar
 bZ
-ca
-ca
+aR
+aR
 ac
 ce
 ce
@@ -2615,8 +2615,8 @@ ar
 ar
 ar
 bZ
-ca
-ca
+aR
+aR
 ac
 ce
 ce
@@ -2684,8 +2684,8 @@ ar
 ar
 ar
 ac
-ca
-ca
+aR
+aR
 ac
 ce
 ce
@@ -2754,7 +2754,7 @@ ar
 bX
 ac
 cb
-ca
+aR
 cd
 ce
 ce
@@ -2823,7 +2823,7 @@ bV
 bW
 ac
 cc
-ca
+aR
 cd
 ce
 ce

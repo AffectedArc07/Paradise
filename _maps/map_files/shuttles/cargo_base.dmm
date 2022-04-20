@@ -17,7 +17,7 @@
 	id = "QMLoad2"
 	},
 /obj/structure/plasticflaps/mining,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/supply)
 "h" = (
 /obj/machinery/door/airlock/external{
@@ -25,7 +25,7 @@
 	name = "Shuttle Hatch";
 	req_access_txt = "31"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/supply)
 "i" = (
 /obj/machinery/light/spot{
@@ -62,7 +62,7 @@
 /obj/docking_port/mobile/supply{
 	timid = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/supply)
 "l" = (
 /obj/machinery/conveyor{
@@ -70,7 +70,7 @@
 	id = "QMLoad"
 	},
 /obj/structure/plasticflaps/mining,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/supply)
 "o" = (
 /obj/machinery/light/spot,

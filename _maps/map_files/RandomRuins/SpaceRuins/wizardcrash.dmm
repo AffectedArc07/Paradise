@@ -207,14 +207,14 @@
 	dir = 1
 	},
 /obj/machinery/door/window/westleft,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aL" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aM" = (
 /obj/machinery/door/airlock/external,
@@ -236,11 +236,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aQ" = (
 /obj/machinery/recharge_station,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aR" = (
 /obj/machinery/light{
@@ -256,7 +256,7 @@
 	dir = 4
 	},
 /obj/structure/reagent_dispensers/oil,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aU" = (
 /obj/structure/window/full/reinforced,
@@ -283,11 +283,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aZ" = (
 /obj/effect/decal/cleanable/blood/old,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ba" = (
 /obj/structure/kitchenspike,
@@ -306,7 +306,7 @@
 "bc" = (
 /obj/effect/decal/remains/human,
 /obj/item/reagent_containers/food/snacks/meat/monkey,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bd" = (
 /obj/structure/showcase,
@@ -331,7 +331,7 @@
 /area/ruin/unpowered)
 "bg" = (
 /obj/item/reagent_containers/food/snacks/meat/monkey,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bh" = (
 /obj/machinery/door/window,
@@ -361,7 +361,7 @@
 	health = 150;
 	name = "Experiment 17e"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bm" = (
 /obj/item/shard{
@@ -391,7 +391,7 @@
 /area/ruin/unpowered)
 "bq" = (
 /obj/effect/decal/remains/human,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bs" = (
 /turf/simulated/floor/plasteel{
@@ -420,7 +420,7 @@
 /obj/item/storage/toolbox/electrical,
 /obj/structure/table,
 /obj/item/clothing/gloves/color/yellow,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bx" = (
 /turf/simulated/floor/mineral/plasma,
@@ -433,13 +433,13 @@
 /area/ruin/unpowered)
 "bz" = (
 /mob/living/simple_animal/hostile/mimic/crate,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bA" = (
 /obj/structure/table,
 /obj/item/wrench,
 /obj/item/weldingtool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bB" = (
 /obj/machinery/light{
@@ -462,7 +462,7 @@
 /area/ruin/unpowered)
 "bD" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bE" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -518,13 +518,13 @@
 	opened = 1
 	},
 /obj/effect/spawner/lootdrop/wizardcrash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bP" = (
 /obj/item/stack/sheet/mineral/plasma,
 /obj/item/stack/sheet/mineral/plasma,
 /obj/structure/table,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -659,7 +659,7 @@ aa
 ae
 ae
 aY
-aS
+aC
 bl
 bq
 ae
@@ -696,8 +696,8 @@ ae
 ae
 ae
 bc
-aS
-aS
+aC
+aC
 bg
 ae
 bx
@@ -733,9 +733,9 @@ aN
 aR
 aU
 aZ
-aS
+aC
 aZ
-aS
+aC
 ae
 bB
 bK
@@ -770,9 +770,9 @@ aO
 aC
 aU
 aZ
-bf
-aS
-aS
+bm
+aC
+aC
 ae
 bx
 bL
@@ -811,9 +811,9 @@ be
 aU
 aU
 ae
-aS
-aS
-aS
+aC
+aC
+aC
 ae
 ae
 aa
@@ -959,9 +959,9 @@ bh
 aX
 aX
 ae
-aS
-aS
-aS
+aC
+aC
+aC
 ae
 ae
 aa
@@ -989,7 +989,7 @@ aB
 aH
 aK
 aP
-aS
+aC
 aX
 ba
 bi

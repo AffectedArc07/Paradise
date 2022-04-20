@@ -10,7 +10,7 @@
 /area/space/nearstation)
 "c" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "d" = (
 /obj/structure/window/reinforced{
@@ -25,7 +25,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "f" = (
 /turf/simulated/wall,
@@ -33,7 +33,7 @@
 "g" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "h" = (
 /obj/machinery/light/small{
@@ -59,7 +59,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "m" = (
 /obj/structure/chair{

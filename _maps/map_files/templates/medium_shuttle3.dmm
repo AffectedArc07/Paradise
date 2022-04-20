@@ -30,7 +30,7 @@
 	})
 "j" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -46,7 +46,7 @@
 	name = "Shuttle"
 	})
 "m" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -90,7 +90,7 @@
 	})
 "t" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})
@@ -136,7 +136,7 @@
 	})
 "C" = (
 /obj/machinery/door/airlock/public/glass,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered{
 	name = "Shuttle"
 	})

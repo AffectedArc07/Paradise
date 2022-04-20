@@ -27,7 +27,7 @@
 /area/ruin/powered/animal_hospital)
 "af" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "ag" = (
 /obj/effect/turf_decal/tile/bar,
@@ -359,10 +359,10 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "aU" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "aV" = (
 /obj/structure/closet/secure_closet/medical1,
@@ -379,15 +379,15 @@
 /obj/item/stack/sheet/mineral/titanium{
 	amount = 30
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "aY" = (
 /obj/structure/morgue,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "aZ" = (
 /obj/effect/decal/cleanable/ash,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "ba" = (
 /obj/structure/table/glass,
@@ -423,17 +423,17 @@
 "be" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "bf" = (
 /obj/structure/table,
 /obj/item/storage/fancy/cigarettes/dromedaryco,
 /obj/item/storage/box/matches,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "bg" = (
 /mob/living/simple_animal/cockroach,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "bh" = (
 /obj/structure/table/glass,
@@ -454,7 +454,7 @@
 /obj/item/flashlight/flare/glowstick,
 /obj/item/flashlight/flare/glowstick,
 /obj/item/flashlight/flare/glowstick,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "bl" = (
 /obj/structure/table,
@@ -834,13 +834,13 @@
 	desc = "There's a smudged note wedged into it that says something about pizza dropoffs.";
 	name = "Staff Entrance"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "cj" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Morgue"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "ck" = (
 /obj/machinery/door/airlock/titanium{
@@ -858,7 +858,7 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Storage"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/animal_hospital)
 "cn" = (
 /obj/machinery/light,

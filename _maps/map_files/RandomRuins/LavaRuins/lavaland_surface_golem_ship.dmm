@@ -8,23 +8,23 @@
 "c" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "d" = (
 /obj/structure/closet/crate/golemgear,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "e" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/item/reagent_containers/spray/cleaner,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "f" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "g" = (
 /obj/structure/reagent_dispensers/watertank/high,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "h" = (
 /obj/structure/shuttle/engine/heater{
@@ -33,22 +33,22 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "i" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
 	icon_state = "burst_l"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "j" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "k" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "l" = (
 /obj/machinery/door/airlock/titanium,
@@ -97,7 +97,7 @@
 /area/shuttle/freegolem)
 "v" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "w" = (
 /obj/structure/statue/gold/rd{
@@ -247,15 +247,15 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "S" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 "T" = (
 /obj/structure/ore_box,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/freegolem)
 
 (1,1,1) = {"

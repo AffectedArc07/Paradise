@@ -513,7 +513,7 @@
 /obj/effect/spawner/window/reinforced{
 	useFull = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/tcommsat)
 "bJ" = (
 /obj/effect/decal/cleanable/blood,
@@ -766,7 +766,7 @@
 /area/ruin/tcommsat)
 "cF" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/tcommsat)
 "cG" = (
 /obj/effect/decal/warning_stripes/west,
@@ -807,15 +807,15 @@
 /area/ruin/tcommsat)
 "cN" = (
 /obj/structure/computerframe,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/tcommsat)
 "cO" = (
 /obj/machinery/teleport/station,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/tcommsat)
 "cP" = (
 /obj/machinery/teleport/hub,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/tcommsat)
 "cQ" = (
 /obj/item/gps/ruin{

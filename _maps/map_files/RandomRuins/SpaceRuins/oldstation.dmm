@@ -72,7 +72,7 @@
 /obj/machinery/door/poddoor{
 	id_tag = "ancient"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/comm)
 "ao" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -103,7 +103,7 @@
 	},
 /area/ruin/space/ancientstation/hivebot)
 "as" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "at" = (
 /obj/effect/decal/cleanable/dirt,
@@ -178,7 +178,7 @@
 /area/ruin/space/ancientstation/comm)
 "aD" = (
 /obj/machinery/door/airlock/highsecurity,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "aE" = (
 /obj/structure/cable,
@@ -238,7 +238,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "aM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -287,7 +287,7 @@
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "aS" = (
 /obj/structure/table,
@@ -323,7 +323,7 @@
 /obj/item/airlock_electronics,
 /obj/item/apc_electronics,
 /obj/item/apc_electronics,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "aY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -395,7 +395,7 @@
 /area/ruin/space/ancientstation/betanorth)
 "bg" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "bh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -463,7 +463,7 @@
 "bn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/highsecurity,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "bo" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -477,11 +477,11 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "bq" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/comm)
 "br" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -515,12 +515,12 @@
 /area/ruin/space/ancientstation/thetacorridor)
 "bw" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "bx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "by" = (
 /obj/machinery/door/firedoor/closed,
@@ -532,7 +532,7 @@
 /area/ruin/space/ancientstation/betanorth)
 "bA" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "bB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -611,7 +611,7 @@
 /area/ruin/space/ancientstation)
 "bM" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "bN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -639,11 +639,11 @@
 /obj/machinery/door/airlock/science{
 	name = "Artificial Program Core Room"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hivebot)
 "bS" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "bT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -658,7 +658,7 @@
 /obj/item/bonegel,
 /obj/item/bonesetter,
 /obj/item/stack/medical/bruise_pack/advanced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "bU" = (
 /obj/machinery/door/airlock/command,
@@ -676,7 +676,7 @@
 "bX" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/transit_tube,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "bY" = (
 /obj/structure/transit_tube_pod{
@@ -774,7 +774,7 @@
 "cj" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/transit_tube,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "ck" = (
 /obj/structure/lattice/catwalk,
@@ -855,7 +855,7 @@
 "cu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "cv" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -908,7 +908,7 @@
 /area/ruin/space/ancientstation/hydroponics)
 "cB" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hydroponics)
 "cC" = (
 /obj/structure/cable/yellow{
@@ -1026,7 +1026,7 @@
 /obj/item/tank/internals/plasma/full,
 /obj/item/tank/internals/plasma/full,
 /obj/item/tank/internals/plasma/full,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "cR" = (
 /obj/structure/table,
@@ -1130,7 +1130,7 @@
 /obj/item/storage/backpack/old,
 /obj/item/storage/backpack/old,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "de" = (
 /obj/structure/transit_tube{
@@ -1336,7 +1336,7 @@
 "dH" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "dI" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -1479,7 +1479,7 @@
 	report_power_alarm = 0;
 	start_charge = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/comm)
 "dY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1716,12 +1716,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/hivebot,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "ez" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/emitter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "eA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1737,7 +1737,7 @@
 /area/ruin/space/ancientstation/betanorth)
 "eC" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "eD" = (
 /obj/structure/cable/yellow{
@@ -1748,7 +1748,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "eE" = (
 /obj/structure/cable{
@@ -1921,7 +1921,7 @@
 "eX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/field/generator,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "eY" = (
 /obj/structure/cable/yellow{
@@ -1930,7 +1930,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "eZ" = (
 /obj/structure/cable{
@@ -1939,7 +1939,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fa" = (
 /obj/effect/decal/cleanable/ash,
@@ -1968,7 +1968,7 @@
 "fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hydroponics)
 "fe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2004,7 +2004,7 @@
 "fi" = (
 /obj/item/apc_electronics,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "fj" = (
 /obj/structure/cable{
@@ -2171,7 +2171,7 @@
 	name = "Engineering External Access";
 	req_one_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2182,7 +2182,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2199,7 +2199,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fD" = (
 /obj/structure/cable/yellow{
@@ -2213,7 +2213,7 @@
 	icon_state = "1-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fE" = (
 /obj/structure/cable{
@@ -2234,7 +2234,7 @@
 	amount = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "fG" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -2272,7 +2272,7 @@
 /obj/machinery/door/poddoor{
 	id_tag = "ancient"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/powered)
 "fI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2317,7 +2317,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "fL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2329,7 +2329,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "fM" = (
 /obj/machinery/light/small{
@@ -2353,7 +2353,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "fO" = (
 /obj/structure/cable{
@@ -2362,7 +2362,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "fP" = (
 /obj/structure/rack,
@@ -2386,7 +2386,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "fR" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2425,7 +2425,7 @@
 	id_tag = "ancient"
 	},
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/sec)
 "fU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2501,7 +2501,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/sec)
 "fZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2513,7 +2513,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "ga" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2525,7 +2525,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "gb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2542,7 +2542,7 @@
 	icon_state = "1-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "gc" = (
 /mob/living/simple_animal/hostile/carp,
@@ -2678,7 +2678,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "gr" = (
 /obj/structure/cable{
@@ -2695,7 +2695,7 @@
 "gt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/kitchen)
 "gu" = (
 /obj/structure/table,
@@ -2717,18 +2717,18 @@
 /obj/machinery/light/small,
 /obj/item/trash/plate,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "gx" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "gy" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/rnd)
 "gz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2739,7 +2739,7 @@
 "gA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/grounding_rod,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "gB" = (
 /obj/item/solar_assembly,
@@ -2751,7 +2751,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "gD" = (
 /obj/structure/cable,
@@ -2956,7 +2956,7 @@
 /area/ruin/space/ancientstation/engi)
 "ha" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/kitchen)
 "hb" = (
 /obj/effect/decal/cleanable/flour,
@@ -3257,7 +3257,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	req_one_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "hF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3405,12 +3405,12 @@
 "hU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/particle_accelerator/control_box,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "hV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/particle_emitter/right,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "hW" = (
 /obj/machinery/light/small{
@@ -3504,7 +3504,7 @@
 	report_power_alarm = 0;
 	start_charge = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "ie" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -3615,7 +3615,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "ir" = (
 /obj/structure/cable{
@@ -3627,13 +3627,13 @@
 	charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "is" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/wrench,
 /obj/item/wirecutters,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "it" = (
 /obj/structure/sign/biohazard{
@@ -3728,16 +3728,16 @@
 	},
 /obj/structure/cable/yellow,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "iE" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "iF" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "iG" = (
 /obj/structure/cable{
@@ -3749,7 +3749,7 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Backup Generator Room"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "iH" = (
 /obj/structure/cable{
@@ -3817,7 +3817,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/lattice/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/template_noop)
 "iP" = (
 /obj/structure/cable/yellow{
@@ -3826,7 +3826,7 @@
 	icon_state = "1-8"
 	},
 /obj/structure/lattice/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/template_noop)
 "iQ" = (
 /obj/machinery/light/small,
@@ -3898,7 +3898,7 @@
 	start_charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/hydroponics)
 "iX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3911,7 +3911,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/cable_coil/random,
 /obj/item/stack/cable_coil/random,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "iZ" = (
 /obj/structure/closet/crate/radiation,
@@ -3919,12 +3919,12 @@
 	amount = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "ja" = (
 /obj/machinery/power/port_gen/pacman/super,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "jb" = (
 /obj/structure/table,
@@ -3933,7 +3933,7 @@
 	},
 /obj/item/paper/fluff/ruins/oldstation/generator_manual,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/engi)
 "jc" = (
 /obj/structure/cable{
@@ -4029,7 +4029,7 @@
 "jm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/particle_emitter/center,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "jn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4061,7 +4061,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4075,7 +4075,7 @@
 "js" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jt" = (
 /turf/simulated/wall/r_wall/rust,
@@ -4118,7 +4118,7 @@
 "jx" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -4130,7 +4130,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jz" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -4140,7 +4140,7 @@
 "jA" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jB" = (
 /obj/structure/table/reinforced,
@@ -4187,7 +4187,7 @@
 	start_charge = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/kitchen)
 "jF" = (
 /obj/structure/cable{
@@ -4257,7 +4257,7 @@
 "jM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jN" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -4270,7 +4270,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "jO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4379,7 +4379,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "kc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -4391,7 +4391,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "kd" = (
 /obj/structure/table,
@@ -4419,7 +4419,7 @@
 /obj/item/reagent_containers/spray/weedspray,
 /obj/item/reagent_containers/spray/pestspray,
 /obj/item/reagent_containers/spray/cleaner,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "kh" = (
 /obj/structure/closet/crate/engineering/electrical,
@@ -4430,7 +4430,7 @@
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "ki" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4477,7 +4477,7 @@
 	amount = 30
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "kn" = (
 /obj/structure/table,
@@ -4505,7 +4505,7 @@
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation)
 "kq" = (
 /obj/structure/table/reinforced,
@@ -4559,7 +4559,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/lattice/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/template_noop)
 "kw" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -4635,7 +4635,7 @@
 /area/ruin/space/ancientstation/atmo)
 "kE" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/proto)
 "kF" = (
 /obj/structure/transit_tube_pod{
@@ -4746,17 +4746,17 @@
 "kT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/particle_emitter/left,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "kU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/fuel_chamber,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "kV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/end_cap,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "kW" = (
 /obj/structure/table,
@@ -4778,11 +4778,11 @@
 "kY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/particle_accelerator/power_box,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "kZ" = (
 /obj/structure/lattice/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/template_noop)
 "la" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5211,33 +5211,33 @@
 "rN" = (
 /obj/structure/closet/crate/secure/weapon,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "AY" = (
 /obj/machinery/recharge_station,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "CG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/tesla_coil,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "LD" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "Rc" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 "Xq" = (
 /mob/living/simple_animal/hostile/hivebot,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/space/ancientstation/thetacorridor)
 
 (1,1,1) = {"

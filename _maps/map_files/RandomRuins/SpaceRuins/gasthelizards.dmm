@@ -314,10 +314,10 @@
 /area/ruin/unpowered)
 "Q" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "R" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 
 (1,1,1) = {"

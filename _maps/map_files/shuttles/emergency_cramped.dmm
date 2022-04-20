@@ -7,27 +7,27 @@
 /area/shuttle/escape)
 "c" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "f" = (
 /obj/machinery/computer/emergency_shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "i" = (
 /obj/structure/table,
 /obj/item/book/manual,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "j" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "k" = (
 /obj/structure/table,
 /obj/item/gps,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "l" = (
 /obj/machinery/door/airlock/titanium{
@@ -36,10 +36,10 @@
 	id_tag = "s_docking_airlock";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "m" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "n" = (
 /obj/structure/window/reinforced{
@@ -48,11 +48,11 @@
 	},
 /obj/structure/table,
 /obj/item/storage/firstaid,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "o" = (
 /obj/machinery/door/window/northleft,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "p" = (
 /obj/structure/window/reinforced{
@@ -60,7 +60,7 @@
 	layer = 2.9
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "q" = (
 /obj/machinery/door/airlock/titanium{
@@ -73,7 +73,7 @@
 	name = "Secure Transport Vessel 5";
 	timid = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "r" = (
 /obj/effect/decal/warning_stripes/yellow/hollow,
@@ -82,28 +82,28 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "u" = (
 /obj/effect/decal/warning_stripes/yellow/hollow,
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "w" = (
 /obj/effect/decal/warning_stripes/yellow/hollow,
 /obj/structure/closet/crate,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "y" = (
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "z" = (
 /obj/structure/shuttle/engine/heater,
@@ -112,7 +112,7 @@
 	dir = 1;
 	layer = 2.9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "B" = (
 /obj/structure/shuttle/engine/propulsion{

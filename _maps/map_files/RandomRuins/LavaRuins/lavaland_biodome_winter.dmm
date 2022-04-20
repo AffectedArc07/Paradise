@@ -10,7 +10,7 @@
 /obj/item/stack/medical/ointment,
 /obj/structure/table,
 /obj/item/stack/medical/bruise_pack,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ad" = (
 /obj/structure/table,
@@ -19,36 +19,36 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ae" = (
 /obj/machinery/power/smes,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "af" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ag" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ah" = (
 /obj/item/reagent_containers/food/drinks/mug,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ai" = (
 /obj/machinery/shower,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "aj" = (
 /obj/structure/sink,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ak" = (
 /turf/simulated/floor/plating/asteroid/snow/atmosphere,
@@ -58,17 +58,17 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/innards,
 /obj/item/organ/internal/heart,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "am" = (
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "an" = (
 /obj/structure/toilet{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "ao" = (
 /turf/simulated/floor/plating/ice/smooth,
@@ -311,7 +311,7 @@
 /area/ruin/powered/snow_biodome)
 "rv" = (
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "tb" = (
 /obj/effect/mapping_helpers/no_lava,
@@ -345,7 +345,7 @@
 /area/ruin/powered/snow_cabin)
 "wM" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "zT" = (
 /obj/effect/decal/cleanable/blood,
@@ -455,7 +455,7 @@
 /area/ruin/powered/snow_biodome)
 "QN" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/snow_biodome)
 "Ub" = (
 /obj/structure/filingcabinet,
@@ -825,7 +825,7 @@ tb
 Wg
 ad
 af
-ar
+aD
 bw
 et
 aD

@@ -97,7 +97,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "an" = (
 /obj/structure/grille,
@@ -107,7 +107,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "ao" = (
 /turf/simulated/wall/mineral/titanium/interior,
@@ -120,7 +120,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aq" = (
 /obj/structure/cable{
@@ -144,11 +144,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "at" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "au" = (
 /obj/machinery/light{
@@ -165,7 +165,7 @@
 	},
 /area/djstation)
 "av" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aw" = (
 /obj/structure/cable{
@@ -216,11 +216,11 @@
 /area/djstation/solars)
 "az" = (
 /obj/machinery/power/terminal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aA" = (
 /obj/item/multitool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aB" = (
 /obj/item/storage/toolbox/mechanical{
@@ -228,7 +228,7 @@
 	pixel_y = -1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aC" = (
 /obj/structure/cable{
@@ -278,7 +278,7 @@
 /area/djstation)
 "aF" = (
 /obj/item/extinguisher,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aG" = (
 /obj/structure/cable{
@@ -309,7 +309,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -318,7 +318,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aK" = (
 /obj/structure/grille,
@@ -333,12 +333,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aL" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aM" = (
 /obj/structure/cable{
@@ -351,7 +351,7 @@
 	pixel_y = -24
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aN" = (
 /obj/structure/cable{
@@ -366,7 +366,7 @@
 	name = "HIGH VOLTAGE";
 	pixel_y = -32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aO" = (
 /obj/structure/cable{
@@ -374,15 +374,15 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aP" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = -28
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aQ" = (
 /obj/structure/rack,
@@ -396,7 +396,7 @@
 	},
 /obj/item/clothing/mask/breath,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "aR" = (
 /obj/machinery/door/airlock/maintenance,
@@ -481,7 +481,7 @@
 /area/djstation)
 "bb" = (
 /obj/machinery/light_switch{
-	name = "north bump";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = 24
 	},
 /obj/item/twohanded/required/kirbyplants,
@@ -492,7 +492,7 @@
 /area/djstation)
 "bc" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "bd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -547,7 +547,7 @@
 /area/djstation)
 "bj" = (
 /obj/machinery/light_switch{
-	name = "north bump";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = 24
 	},
 /turf/simulated/floor/plasteel{
@@ -757,7 +757,7 @@
 /area/djstation)
 "bJ" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_x = 32;
 	pixel_y = 9
 	},
@@ -862,7 +862,7 @@
 	req_access = null
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "bV" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -888,7 +888,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "bW" = (
 /obj/machinery/door/airlock/external{
@@ -899,7 +899,7 @@
 	name = "DJ Station External Access";
 	req_access = null
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/djstation)
 "bX" = (
 /turf/template_noop,

@@ -71,7 +71,7 @@
 	layer = 3.4;
 	name = "Blast Shutters"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/bridge)
 "ao" = (
 /obj/effect/landmark/damageturf,
@@ -92,7 +92,7 @@
 	layer = 3.4;
 	name = "Blast Shutters"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/bridge)
 "ar" = (
 /obj/effect/landmark/damageturf,
@@ -104,7 +104,7 @@
 	layer = 3.4;
 	name = "Blast Shutters"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/bridge)
 "as" = (
 /obj/structure/grille,
@@ -114,7 +114,7 @@
 	layer = 3;
 	name = "Bridge Lockdown"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/bridge)
 "at" = (
 /obj/structure/closet/crate/can,
@@ -1582,7 +1582,7 @@
 	layer = 2.9;
 	name = "Security Wing Lockdown"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "dG" = (
 /obj/structure/grille{
@@ -1601,7 +1601,7 @@
 "dH" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "dI" = (
 /obj/machinery/door/airlock/titanium{
@@ -2132,7 +2132,7 @@
 	layer = 3;
 	name = "Central Annex Lockdown"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -2292,7 +2292,7 @@
 	name = "Central Annex Lockdown"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -2639,7 +2639,7 @@
 "fG" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "fH" = (
 /obj/structure/window/reinforced{
@@ -3844,7 +3844,7 @@
 "if" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -3936,7 +3936,7 @@
 /area/space/nearstation)
 "ir" = (
 /obj/effect/spawner/window/plastitanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "iu" = (
 /turf/simulated/wall/mineral/plastitanium,
@@ -4305,7 +4305,7 @@
 	name = "Shuttle Airlock";
 	req_access_txt = "150"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "jm" = (
 /obj/machinery/door/airlock/external{
@@ -4530,7 +4530,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "jL" = (
 /obj/structure/cable{
@@ -4544,7 +4544,7 @@
 	frequency = 1502;
 	id_tag = "rus_pump_2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "jM" = (
 /obj/structure/cable{
@@ -4558,7 +4558,7 @@
 	locked = 1;
 	name = "External Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "jN" = (
 /obj/structure/window/reinforced,
@@ -4832,7 +4832,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -4894,7 +4894,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -5396,7 +5396,7 @@
 	id_tag = "rus_inner_2";
 	name = "External Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "lp" = (
 /obj/structure/cable{
@@ -5426,7 +5426,7 @@
 	frequency = 1502;
 	id_tag = "rus_pump_2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "lq" = (
 /obj/machinery/door/airlock/external{
@@ -5440,7 +5440,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/crew_quarters)
 "lr" = (
 /obj/structure/window/reinforced{
@@ -8375,7 +8375,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "sb" = (
 /obj/structure/cable{
@@ -8389,7 +8389,7 @@
 	id_tag = "rus_inner_1";
 	name = "External Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "sc" = (
 /obj/structure/cable{
@@ -8420,7 +8420,7 @@
 	tag_exterior_door = "rus_outer_1";
 	tag_interior_door = "rus_inner_1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "sd" = (
 /obj/structure/cable{
@@ -8436,7 +8436,7 @@
 	frequency = 1501;
 	id_tag = "rus_pump_1"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "se" = (
 /obj/structure/cable{
@@ -8450,7 +8450,7 @@
 	locked = 1;
 	name = "External Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "sf" = (
 /obj/machinery/door/airlock/external{
@@ -8464,7 +8464,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/derelict/arrival)
 "sg" = (
 /obj/item/stack/cable_coil{

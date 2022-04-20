@@ -15,7 +15,7 @@
 	opacity = 0
 	},
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "ah" = (
 /obj/structure/sign/lifestar{
@@ -33,7 +33,7 @@
 	name = "Blast Door";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "aj" = (
 /obj/structure/fans/tiny,
@@ -55,7 +55,7 @@
 	name = "Blast Door";
 	opacity = 0
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "ap" = (
 /obj/machinery/chem_master,
@@ -87,15 +87,6 @@
 	pixel_y = 1
 	},
 /turf/simulated/wall/mineral/titanium,
-/area/shuttle/administration)
-"av" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "aw" = (
 /turf/simulated/floor/mineral/titanium,
@@ -212,7 +203,7 @@
 /area/shuttle/administration)
 "aP" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "aQ" = (
 /obj/structure/chair{
@@ -351,7 +342,7 @@
 	opacity = 0
 	},
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 "bp" = (
 /obj/machinery/computer/pandemic,
@@ -462,14 +453,6 @@
 	},
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
-"bD" = (
-/obj/machinery/door/airlock/command{
-	name = "Command Center";
-	req_access = null;
-	req_access_txt = "19"
-	},
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
 "bE" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/iv_bag/blood/OMinus,
@@ -495,7 +478,6 @@
 "bI" = (
 /obj/machinery/door/airlock/titanium/glass{
 	name = "Operating Room";
-	req_access = null;
 	req_access_txt = "45"
 	},
 /turf/simulated/floor/mineral/titanium,
@@ -520,16 +502,6 @@
 /obj/machinery/light,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
-	},
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
-"bO" = (
-/obj/machinery/sleeper,
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
-"bP" = (
-/obj/machinery/sleeper{
-	dir = 4
 	},
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
@@ -563,25 +535,6 @@
 /obj/machinery/iv_drip,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
-"bY" = (
-/obj/structure/sign/examroom,
-/turf/simulated/wall/mineral/titanium,
-/area/shuttle/administration)
-"bZ" = (
-/obj/machinery/defibrillator_mount/loaded,
-/turf/simulated/wall/mineral/titanium,
-/area/shuttle/administration)
-"ca" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/camera{
-	dir = 5;
-	name = "NHV Asclepius Central";
-	network = list("NHV Asclepius")
-	},
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
 "cb" = (
 /obj/machinery/light{
 	dir = 4
@@ -601,12 +554,6 @@
 	},
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
-"cf" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/glass/beaker/cryoxadone,
-/obj/item/reagent_containers/glass/beaker/cryoxadone,
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
 "cg" = (
 /obj/machinery/portable_atmospherics/canister/oxygen{
 	name = "Canister: \[O2] (CRYO)"
@@ -622,24 +569,11 @@
 /obj/machinery/atmospherics/unary/portables_connector,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
-"ch" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/spray/cleaner{
-	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
-	name = "Surgery Cleaner"
-	},
-/obj/machinery/cell_charger,
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
 "ci" = (
 /obj/structure/bed{
 	name = "Triage: High Priority"
 	},
 /obj/machinery/iv_drip,
-/turf/simulated/floor/mineral/titanium,
-/area/shuttle/administration)
-"cj" = (
-/obj/machinery/atmospherics/unary/thermomachine/freezer,
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/administration)
 "ck" = (
@@ -728,11 +662,7 @@
 	opacity = 0
 	},
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
-/area/shuttle/administration)
-"zD" = (
-/obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/mineral/titanium,
+/turf/simulated/floor/wood,
 /area/shuttle/administration)
 
 (1,1,1) = {"
@@ -807,9 +737,9 @@ ab
 br
 aw
 aw
+aU
 aw
-bb
-cf
+aw
 cw
 aw
 cn
@@ -825,11 +755,11 @@ aw
 aw
 ab
 ab
-bD
-zD
-ab
-ab
-aC
+aR
+bd
+aP
+bv
+bE
 cv
 aw
 co
@@ -845,11 +775,11 @@ aw
 aw
 bj
 bt
-aw
-aw
-bO
-bY
-cj
+aP
+bb
+ab
+aP
+ab
 cx
 aw
 cp
@@ -866,10 +796,10 @@ bb
 ab
 bu
 aw
-aw
-bP
-bZ
-ch
+be
+ab
+bw
+bG
 aw
 aw
 cq
@@ -877,7 +807,7 @@ ab
 "}
 (8,1,1) = {"
 ah
-av
+aQ
 aw
 aQ
 aw
@@ -886,9 +816,9 @@ bc
 aP
 aw
 aw
-aw
-aw
-ca
+bg
+ab
+bx
 aw
 aw
 aw
@@ -906,9 +836,9 @@ aw
 aU
 aw
 aw
-aw
-aw
-aw
+bh
+ab
+by
 aw
 aw
 aw
@@ -921,14 +851,14 @@ aw
 aw
 aw
 aw
-aw
-aw
-aU
-aw
-aw
-aw
-aw
-aw
+aa
+aa
+aa
+aa
+aZ
+bi
+ab
+bz
 aw
 aw
 aw
@@ -941,11 +871,11 @@ ax
 aI
 aR
 aw
-aR
-bd
-aP
-bv
-bE
+aa
+aa
+aa
+aa
+aa
 aw
 bQ
 cb
@@ -961,11 +891,11 @@ ab
 aJ
 aP
 aU
-aP
-bb
-ab
-aP
-ab
+aa
+aa
+aa
+aa
+aa
 bI
 ab
 aJ
@@ -981,11 +911,11 @@ ay
 aw
 aw
 aw
-aw
-be
-ab
-bw
-bG
+aa
+aa
+aa
+aa
+aa
 aw
 bR
 ab
@@ -1001,11 +931,11 @@ az
 aw
 aw
 aw
-aw
-bg
-ab
-bx
-aw
+aa
+aa
+aa
+aa
+aa
 aw
 aw
 ab
@@ -1021,11 +951,11 @@ aA
 aw
 aw
 aw
-aw
-bh
-ab
-by
-aw
+aa
+aa
+aa
+aa
+aa
 aw
 bT
 ab
@@ -1041,11 +971,11 @@ aB
 aw
 aw
 aw
-aZ
-bi
-ab
-bz
-aw
+aa
+aa
+aa
+aa
+aa
 aw
 bU
 ab

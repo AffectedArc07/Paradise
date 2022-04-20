@@ -21,14 +21,14 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "ae" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "af" = (
 /obj/structure/disposalpipe/segment{
@@ -182,7 +182,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "ap" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -206,7 +206,7 @@
 /obj/structure/disposaloutlet{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "ar" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -257,7 +257,7 @@
 /obj/structure/disposalpipe/segment{
 	invisibility = 101
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "av" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -393,7 +393,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "aF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -559,7 +559,7 @@
 	dir = 4;
 	invisibility = 101
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "aQ" = (
 /obj/structure/disposalpipe/segment{
@@ -617,7 +617,7 @@
 /area/ruin/powered/clownplanet)
 "aU" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "aV" = (
 /obj/structure/disposalpipe/segment{
@@ -646,7 +646,7 @@
 /obj/structure/disposaloutlet{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "aY" = (
 /obj/structure/disposalpipe/segment{
@@ -775,7 +775,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "bl" = (
 /obj/item/bikehorn,
@@ -910,7 +910,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "bv" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
@@ -973,7 +973,7 @@
 	dir = 4;
 	invisibility = 101
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "bH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1059,7 +1059,7 @@
 /turf/simulated/wall/r_wall,
 /area/ruin/powered/clownplanet)
 "cu" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered/clownplanet)
 "dK" = (
 /obj/machinery/light/small{

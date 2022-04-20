@@ -9,7 +9,7 @@
 /obj/effect/spawner/window/reinforced{
 	color = "red"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "ad" = (
 /obj/machinery/computer/emergency_shuttle,
@@ -149,7 +149,7 @@
 /area/shuttle/escape)
 "ay" = (
 /obj/machinery/door/airlock/cult/friendly,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/escape)
 "az" = (
 /obj/structure/cult/altar,

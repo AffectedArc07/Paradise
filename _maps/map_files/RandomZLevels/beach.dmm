@@ -991,7 +991,7 @@
 /area/awaymission/beach)
 "dU" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/beach)
 "dV" = (
 /obj/structure/flora/rock,
@@ -1112,7 +1112,7 @@
 /area/awaymission/beach)
 "et" = (
 /obj/structure/shuttle/engine/heater,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/beach)
 "eu" = (
 /obj/structure/table/wood,
@@ -1134,7 +1134,7 @@
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_l"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/beach)
 "ey" = (
 /obj/effect/waterfall{
@@ -1147,11 +1147,11 @@
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion_r"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/beach)
 "eA" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/beach)
 "eB" = (
 /obj/effect/waterfall{

@@ -11,7 +11,7 @@
 /area/ruin/powered)
 "g" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 "h" = (
 /turf/simulated/floor/mineral/titanium/blue,
@@ -82,7 +82,7 @@
 /area/ruin/powered)
 "D" = (
 /obj/machinery/door/airlock/titanium,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/powered)
 
 (1,1,1) = {"

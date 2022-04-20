@@ -115,7 +115,7 @@
 "at" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "au" = (
 /turf/simulated/floor/plasteel{
@@ -340,7 +340,7 @@
 	},
 /area/awaymission/UO71/plaza)
 "aY" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "aZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -350,7 +350,7 @@
 /area/awaymission/UO71/plaza)
 "ba" = (
 /obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bb" = (
 /turf/simulated/floor/plasteel{
@@ -548,7 +548,7 @@
 /area/awaymission/UO71/plaza)
 "bF" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bG" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -564,11 +564,11 @@
 /area/awaymission/UO71/plaza)
 "bI" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bK" = (
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -577,7 +577,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -586,7 +586,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -596,7 +596,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -606,7 +606,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -616,7 +616,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -626,7 +626,7 @@
 	dir = 1;
 	initialize_directions = 14
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bR" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -646,7 +646,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -665,7 +665,7 @@
 	dir = 1;
 	initialize_directions = 14
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "bZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -676,7 +676,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "ca" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -686,33 +686,33 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "ce" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cf" = (
 /obj/structure/closet,
 /obj/item/storage/box/lights/mixed,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cg" = (
 /obj/machinery/light/small{
@@ -765,12 +765,12 @@
 "cm" = (
 /obj/structure/grille,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cn" = (
 /obj/structure/closet/emcloset,
 /obj/item/clothing/mask/breath,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "co" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -781,11 +781,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cp" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -795,7 +795,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -857,7 +857,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -867,7 +867,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -877,7 +877,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cE" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -887,15 +887,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cF" = (
 /obj/item/stack/rods,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cG" = (
 /obj/structure/grille,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -924,7 +924,7 @@
 "cN" = (
 /obj/structure/closet,
 /obj/item/poster/random_contraband,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cO" = (
 /obj/structure/table,
@@ -951,7 +951,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/burnturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cS" = (
 /obj/structure/cable{
@@ -967,7 +967,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "cV" = (
 /obj/structure/disposalpipe/segment{
@@ -1061,7 +1061,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "df" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1209,7 +1209,7 @@
 /area/awaymission/UO71/plaza)
 "du" = (
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "dv" = (
 /obj/structure/chair,
@@ -1341,7 +1341,7 @@
 	name = "Security Checkpoint Maintenance";
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "dP" = (
 /turf/simulated/floor/plasteel{
@@ -1358,7 +1358,7 @@
 "dR" = (
 /obj/structure/grille,
 /obj/structure/window/full/basic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "dS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1814,7 +1814,7 @@
 	name = "Hydroponics Maintenance";
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "eR" = (
 /obj/structure/disposalpipe/segment{
@@ -1840,7 +1840,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "eT" = (
 /obj/structure/cable{
@@ -1851,7 +1851,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "eU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1968,10 +1968,10 @@
 "fj" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "fk" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fl" = (
 /obj/machinery/light/small,
@@ -2072,7 +2072,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fy" = (
 /obj/structure/disposalpipe/segment,
@@ -2080,7 +2080,7 @@
 /obj/structure/cable,
 /obj/effect/landmark/burnturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fz" = (
 /obj/machinery/door/firedoor,
@@ -2103,7 +2103,7 @@
 	name = "Kitchen Maintenance";
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fC" = (
 /obj/structure/cable{
@@ -2118,7 +2118,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2127,7 +2127,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2169,7 +2169,7 @@
 "fJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/rods,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fK" = (
 /obj/structure/cable{
@@ -2183,7 +2183,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "fL" = (
 /turf/simulated/wall,
@@ -2287,7 +2287,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "gc" = (
 /obj/structure/sign/securearea{
@@ -2392,7 +2392,7 @@
 "gs" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "gt" = (
 /obj/structure/table,
@@ -2670,7 +2670,7 @@
 /area/awaymission/UO71/centralhall)
 "gX" = (
 /obj/structure/closet/firecloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "gY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2678,7 +2678,7 @@
 	dir = 1
 	},
 /obj/item/storage/box/lights/mixed,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "gZ" = (
 /obj/structure/disposalpipe/segment{
@@ -2852,7 +2852,7 @@
 	dir = 4;
 	level = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "hs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2878,7 +2878,7 @@
 	initialize_directions = 11
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "hu" = (
 /obj/machinery/gateway{
@@ -2934,15 +2934,15 @@
 /area/awaymission/UO71/gateway)
 "hz" = (
 /obj/machinery/portable_atmospherics/scrubber,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "hA" = (
 /obj/structure/closet/emcloset,
 /obj/item/clothing/mask/breath,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "hB" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "hC" = (
 /obj/machinery/computer/rdconsole/core{
@@ -3135,7 +3135,7 @@
 /obj/machinery/door/airlock{
 	name = "Emergency Supplies"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "ib" = (
 /obj/structure/closet/l3closet/scientist,
@@ -3280,14 +3280,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "it" = (
 /obj/structure/closet/emcloset,
 /obj/item/clothing/mask/breath,
 /obj/item/storage/toolbox/syndicate,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "iu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3321,7 +3321,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "iz" = (
 /obj/machinery/door/firedoor,
@@ -3472,7 +3472,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "iZ" = (
 /obj/effect/decal/cleanable/blood/gibs{
@@ -3679,7 +3679,7 @@
 	},
 /obj/effect/landmark/burnturf,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "jD" = (
 /obj/machinery/shower{
@@ -3742,7 +3742,7 @@
 "jM" = (
 /obj/structure/grille,
 /obj/structure/window/full/basic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "jN" = (
 /obj/machinery/door/firedoor,
@@ -3779,7 +3779,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "jR" = (
 /obj/structure/chair{
@@ -3880,7 +3880,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "jY" = (
 /obj/structure/cable{
@@ -3898,7 +3898,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "jZ" = (
 /obj/structure/cable{
@@ -3918,7 +3918,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "ka" = (
 /obj/structure/cable{
@@ -3936,7 +3936,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "kb" = (
 /obj/structure/cable{
@@ -3955,7 +3955,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "kc" = (
 /obj/machinery/door/poddoor{
@@ -3986,11 +3986,11 @@
 /area/awaymission/UO71/science)
 "ki" = (
 /obj/structure/dispenser/oxygen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "kk" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/gateway)
 "kl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4151,7 +4151,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "kC" = (
 /obj/structure/closet/crate,
@@ -4161,11 +4161,11 @@
 	pixel_y = -1
 	},
 /obj/item/multitool,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "kD" = (
 /obj/structure/closet/l3closet/general,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "kE" = (
 /obj/structure/table,
@@ -4626,7 +4626,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "lB" = (
 /obj/structure/cable{
@@ -5032,7 +5032,7 @@
 /area/awaymission/UO71/centralhall)
 "mj" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "mk" = (
 /obj/structure/table,
@@ -5078,7 +5078,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/landmark/burnturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "mo" = (
 /turf/simulated/floor/plasteel{
@@ -5131,7 +5131,7 @@
 "mu" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "mv" = (
 /turf/simulated/floor/plasteel{
@@ -5154,7 +5154,7 @@
 	c_tag = "Engineering Secure Storage";
 	network = list("UO71")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "mA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5246,7 +5246,7 @@
 /area/awaymission/UO71/eng)
 "mJ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "mK" = (
 /obj/structure/closet/crate,
@@ -5267,7 +5267,7 @@
 	pixel_y = -24;
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "mL" = (
 /obj/structure/table,
@@ -5389,7 +5389,7 @@
 	req_access_txt = "271"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "mX" = (
 /obj/structure/closet/secure_closet,
@@ -5593,7 +5593,7 @@
 	id_tag = "UO71_Secure Storage";
 	name = "secure storage"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "nw" = (
 /obj/machinery/chem_master,
@@ -5617,7 +5617,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "nz" = (
 /obj/structure/table,
@@ -5656,7 +5656,7 @@
 /obj/item/stack/sheet/mineral/silver{
 	amount = 25
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "nC" = (
 /obj/machinery/light/small{
@@ -5721,7 +5721,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "nI" = (
 /obj/structure/cable{
@@ -5738,7 +5738,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "nJ" = (
 /obj/structure/cable{
@@ -5750,7 +5750,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/landmark/burnturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "nK" = (
 /obj/structure/cable{
@@ -5768,7 +5768,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "nL" = (
 /obj/structure/cable{
@@ -5924,7 +5924,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "ob" = (
 /obj/structure/cable{
@@ -5942,7 +5942,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "oc" = (
 /obj/structure/cable{
@@ -5950,7 +5950,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "od" = (
 /obj/machinery/door/airlock/research{
@@ -5988,7 +5988,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "oh" = (
 /obj/machinery/alarm/monitor{
@@ -6062,7 +6062,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "om" = (
 /obj/structure/cable{
@@ -6080,7 +6080,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "on" = (
 /obj/structure/table/reinforced,
@@ -6511,7 +6511,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "oP" = (
 /obj/structure/cable,
@@ -6521,7 +6521,7 @@
 	inputting = 0;
 	output_level = 25000
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "oQ" = (
 /obj/structure/cable,
@@ -6531,7 +6531,7 @@
 	inputting = 0;
 	output_level = 25000
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "oR" = (
 /obj/machinery/chem_heater,
@@ -6644,12 +6644,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/landmark/damageturf,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "pf" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "pg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6818,7 +6818,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "px" = (
 /obj/machinery/power/terminal{
@@ -6837,7 +6837,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "py" = (
 /obj/machinery/power/terminal{
@@ -6851,7 +6851,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pz" = (
 /obj/structure/cable{
@@ -6862,7 +6862,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pA" = (
 /obj/machinery/power/terminal{
@@ -6876,7 +6876,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6901,7 +6901,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "pE" = (
 /obj/machinery/disposal,
@@ -6940,7 +6940,7 @@
 /area/awaymission/UO71/science)
 "pH" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "pI" = (
 /turf/simulated/floor/plasteel{
@@ -6998,7 +6998,7 @@
 "pO" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "pP" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -7032,7 +7032,7 @@
 	icon_state = "1-4"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pT" = (
 /turf/simulated/wall/indestructible/syndicate,
@@ -7048,7 +7048,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7063,7 +7063,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "pZ" = (
 /obj/structure/cable{
@@ -7071,7 +7071,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "qa" = (
 /turf/simulated/wall,
@@ -7086,7 +7086,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "qc" = (
 /obj/machinery/door/airlock/command{
@@ -7105,7 +7105,7 @@
 "qe" = (
 /obj/structure/grille,
 /obj/structure/window/full/basic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/medical)
 "qf" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -7133,7 +7133,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "qh" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -7159,7 +7159,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/medical)
 "qj" = (
 /turf/simulated/floor/plasteel{
@@ -7317,12 +7317,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "qy" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "qz" = (
 /obj/structure/cable{
@@ -7334,13 +7334,13 @@
 	name = "SMES Room";
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "qA" = (
 /obj/structure/closet,
 /obj/item/storage/belt/utility,
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "qB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7477,7 +7477,7 @@
 "qR" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "qS" = (
 /obj/structure/chair,
@@ -7676,7 +7676,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "ri" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -7737,7 +7737,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "rr" = (
 /turf/simulated/floor/plasteel,
@@ -7799,7 +7799,7 @@
 /area/awaymission/UO71/centralhall)
 "rz" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "rA" = (
 /obj/machinery/alarm/monitor{
@@ -7837,7 +7837,7 @@
 "rD" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "rE" = (
 /obj/item/twohanded/required/kirbyplants,
@@ -7964,7 +7964,7 @@
 "rP" = (
 /obj/structure/closet/firecloset,
 /obj/effect/decal/warning_stripes/northwest,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "rQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -7984,7 +7984,7 @@
 	initialize_directions = 11
 	},
 /obj/effect/decal/warning_stripes/north,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "rS" = (
 /obj/structure/table/reinforced,
@@ -7998,14 +7998,14 @@
 	dir = 1
 	},
 /obj/effect/decal/warning_stripes/northeast,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "rT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "rU" = (
 /obj/structure/table,
@@ -8441,7 +8441,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/effect/decal/warning_stripes/west,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "sF" = (
 /obj/structure/grille,
@@ -8453,7 +8453,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "sG" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
@@ -8830,7 +8830,7 @@
 "tp" = (
 /obj/machinery/atmospherics/binary/valve,
 /obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "tq" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple{
@@ -9122,7 +9122,7 @@
 	id_tag = "UO71_Engineering";
 	name = "engineering security door"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "ub" = (
 /obj/structure/cable{
@@ -9177,7 +9177,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "ug" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -9215,7 +9215,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "um" = (
 /obj/machinery/door/firedoor,
@@ -9249,7 +9249,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "uo" = (
 /obj/structure/cable{
@@ -9340,7 +9340,7 @@
 "uv" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/effect/decal/warning_stripes/southwest,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "uw" = (
 /obj/structure/cable{
@@ -9359,7 +9359,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "ux" = (
 /obj/machinery/light{
@@ -9484,7 +9484,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/decal/warning_stripes/south,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "uL" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -9525,7 +9525,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/decal/warning_stripes/southeast,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "uP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9648,7 +9648,7 @@
 /area/awaymission/UO71/eng)
 "vb" = (
 /obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "vc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9734,7 +9734,7 @@
 /area/awaymission/UO71/mining)
 "vm" = (
 /obj/machinery/atmospherics/binary/valve,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "vn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9796,11 +9796,11 @@
 "vu" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "vv" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "vw" = (
 /obj/structure/closet/firecloset,
@@ -10087,28 +10087,28 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "wa" = (
 /obj/machinery/conveyor{
 	id = "UO71_mining"
 	},
 /obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/item/stack/rods,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "wc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/centralhall)
 "wd" = (
 /obj/structure/cable{
@@ -10173,7 +10173,7 @@
 	output_dir = 8
 	},
 /obj/effect/decal/warning_stripes/northeast,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wj" = (
 /obj/structure/cable{
@@ -10327,7 +10327,7 @@
 	name = "Mining Maintenance";
 	req_access_txt = "271"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wB" = (
 /obj/machinery/door/firedoor,
@@ -10360,7 +10360,7 @@
 	pixel_x = -32
 	},
 /obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -10388,7 +10388,7 @@
 	dir = 1
 	},
 /obj/effect/decal/warning_stripes/northeast,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wI" = (
 /obj/structure/cable{
@@ -10463,7 +10463,7 @@
 	dir = 8
 	},
 /obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "wO" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -10590,7 +10590,7 @@
 	output_dir = 4
 	},
 /obj/effect/decal/warning_stripes/northeast,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "xf" = (
 /obj/structure/grille,
@@ -10603,7 +10603,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "xg" = (
 /obj/structure/grille,
@@ -10613,7 +10613,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/eng)
 "xh" = (
 /obj/structure/cable{
@@ -11192,7 +11192,7 @@
 "yl" = (
 /obj/structure/grille,
 /obj/structure/window/full/basic,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "ym" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11217,7 +11217,7 @@
 "yp" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "yq" = (
 /obj/structure/table,
@@ -11270,7 +11270,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "yw" = (
 /obj/machinery/light/small{
@@ -11393,7 +11393,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "yJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -11456,7 +11456,7 @@
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/mining)
 "yS" = (
 /obj/machinery/door/airlock/external{
@@ -11768,7 +11768,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "CI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -11784,7 +11784,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "Eb" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -11808,7 +11808,7 @@
 	req_access_txt = "271"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "HH" = (
 /obj/effect/decal/warning_stripes/west,
@@ -11837,7 +11837,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "IL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -11853,7 +11853,7 @@
 	dir = 5;
 	level = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/plaza)
 "Jo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -11909,7 +11909,7 @@
 /turf/simulated/floor/plasteel,
 /area/awaymission/UO71/plaza)
 "Pk" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 "Pv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -11982,7 +11982,7 @@
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/awaymission/UO71/science)
 
 (1,1,1) = {"

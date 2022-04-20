@@ -21,7 +21,7 @@
 /obj/item/clothing/suit/bloated_human,
 /obj/effect/decal/cleanable/blood,
 /obj/item/clothing/head/human_head,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "f" = (
 /obj/structure/mirror{
@@ -40,18 +40,18 @@
 	icon_state = "mirror_broke";
 	pixel_x = -28
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "h" = (
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "i" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "j" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "k" = (
 /obj/structure/mirror{
@@ -61,7 +61,7 @@
 	pixel_y = 28
 	},
 /obj/item/kitchen/knife/envy,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "l" = (
 /obj/structure/mirror{
@@ -70,7 +70,7 @@
 	icon_state = "mirror_broke";
 	pixel_x = 28
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "m" = (
 /obj/structure/mirror{
@@ -79,7 +79,7 @@
 	icon_state = "mirror_broke";
 	pixel_x = -28
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "n" = (
 /turf/simulated/floor/plating/damaged,
@@ -96,11 +96,11 @@
 "p" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny/invisible,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "q" = (
 /obj/effect/baseturf_helper/lava_land/surface,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered/misc_lavaruin)
 "A" = (
 /obj/effect/mapping_helpers/no_lava,

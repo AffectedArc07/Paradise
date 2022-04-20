@@ -12,7 +12,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ac" = (
 /obj/structure/grille,
@@ -22,7 +22,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ad" = (
 /obj/machinery/shieldwallgen{
@@ -39,7 +39,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ae" = (
 /obj/machinery/shieldwallgen{
@@ -57,7 +57,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "af" = (
 /obj/machinery/shieldwallgen{
@@ -69,12 +69,12 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ag" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "ah" = (
 /turf/simulated/mineral,
@@ -94,7 +94,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "al" = (
 /obj/structure/flora/ausbushes/genericbush,
@@ -234,7 +234,7 @@
 	icon_state = "2-4";
 	tag = ""
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aF" = (
 /obj/structure/cable{
@@ -297,7 +297,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "aK" = (
 /obj/structure/window/reinforced{
@@ -583,7 +583,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bp" = (
 /obj/structure/bed,
@@ -600,7 +600,7 @@
 	pixel_y = -4
 	},
 /obj/item/wirecutters,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "br" = (
 /obj/structure/table/reinforced,
@@ -630,7 +630,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bt" = (
 /obj/structure/cable{
@@ -638,25 +638,25 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bu" = (
 /obj/structure/flora/ausbushes/sunnybush,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bv" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bw" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/carp,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bx" = (
 /obj/structure/flora/ausbushes/palebush,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "by" = (
 /obj/structure/disposalpipe/segment{
@@ -687,25 +687,25 @@
 /area/ruin/unpowered)
 "bB" = (
 /obj/structure/alien/weeds,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bC" = (
 /obj/structure/alien/weeds/node,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bD" = (
 /obj/item/clothing/mask/facehugger{
 	icon_state = "facehugger_dead";
 	stat = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bE" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bF" = (
 /obj/structure/disposalpipe/segment,
@@ -717,21 +717,21 @@
 /area/ruin/unpowered)
 "bH" = (
 /obj/structure/alien/resin/wall,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bI" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bJ" = (
 /mob/living/simple_animal/crab{
 	faction = list("carp")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bK" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space/nearstation)
 "bL" = (
 /obj/machinery/light/small{
@@ -750,11 +750,11 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bO" = (
 /obj/item/shard,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bP" = (
 /obj/structure/lattice,
@@ -773,14 +773,14 @@
 	tag = ""
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bR" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /obj/structure/disposaloutlet,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/space/nearstation)
 "bS" = (
 /obj/structure/cable{
@@ -790,18 +790,18 @@
 	},
 /obj/structure/cable,
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bT" = (
 /obj/structure/grille,
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bU" = (
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 "bV" = (
 /obj/machinery/shieldwallgen,

@@ -83,7 +83,7 @@
 /area/mine/laborcamp)
 "ap" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "aq" = (
 /turf/simulated/wall,
@@ -264,15 +264,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/laborcamp)
-"aN" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "aP" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/ancient,
@@ -405,7 +396,7 @@
 /area/mine/eva)
 "bg" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/eva)
 "bh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -419,22 +410,6 @@
 	icon_state = "darkred"
 	},
 /area/mine/laborcamp/security)
-"bi" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/door_control{
-	id = "miningdorm2";
-	name = "Door Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = 24;
-	specialfunctions = 4
-	},
-/turf/simulated/floor/carpet,
-/area/mine/living_quarters)
 "bj" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -505,21 +480,8 @@
 /turf/simulated/wall,
 /area/mine/production)
 "br" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/door_control{
-	id = "miningdorm3";
-	name = "Door Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_x = 24;
-	specialfunctions = 4
-	},
-/turf/simulated/floor/carpet,
-/area/mine/living_quarters)
+/turf/space,
+/area/space)
 "bt" = (
 /obj/machinery/suit_storage_unit/lavaland,
 /turf/simulated/floor/plasteel{
@@ -558,7 +520,7 @@
 	dir = 4
 	},
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = -25
 	},
 /turf/simulated/floor/plasteel,
@@ -659,11 +621,11 @@
 /area/mine/eva)
 "bF" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/eva)
 "bG" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_x = 27
 	},
 /obj/effect/baseturf_helper/lava_land/surface,
@@ -687,7 +649,7 @@
 /obj/structure/sign/securearea{
 	name = "\improper KEEP CLEAR: DOCKING AREA"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "bK" = (
 /obj/machinery/light/small{
@@ -726,11 +688,11 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "bN" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "bO" = (
 /obj/machinery/door/airlock/titanium{
@@ -757,7 +719,7 @@
 	turf_type = /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface;
 	width = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/siberia)
 "bP" = (
 /obj/item/radio/beacon,
@@ -893,7 +855,7 @@
 /area/mine/laborcamp/security)
 "cb" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = 25
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -957,19 +919,19 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "cg" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "ch" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "ci" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1113,7 +1075,7 @@
 	icon_state = "0-4"
 	},
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "cA" = (
 /obj/structure/cable{
@@ -1122,12 +1084,12 @@
 	icon_state = "4-8";
 	tag = ""
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "cB" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "cC" = (
 /obj/machinery/power/port_gen/pacman{
@@ -1137,7 +1099,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "cD" = (
 /obj/item/radio/intercom{
@@ -1171,7 +1133,7 @@
 /area/mine/production)
 "cG" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp/security)
 "cH" = (
 /obj/machinery/power/apc{
@@ -1204,13 +1166,13 @@
 /obj/machinery/door/airlock{
 	name = "Closet"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "cK" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "cL" = (
 /obj/machinery/space_heater,
@@ -1218,7 +1180,7 @@
 	gpstag = "BASE0";
 	pixel_y = 32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "cM" = (
 /turf/simulated/wall,
@@ -1257,7 +1219,7 @@
 /area/mine/maintenance)
 "cR" = (
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cS" = (
 /obj/machinery/power/smes{
@@ -1266,7 +1228,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cT" = (
 /obj/structure/cable{
@@ -1279,21 +1241,21 @@
 /obj/structure/sign/electricshock{
 	pixel_y = 32
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cU" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cV" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cW" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "cX" = (
 /obj/structure/ore_box,
@@ -1435,7 +1397,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dp" = (
 /obj/structure/cable{
@@ -1445,19 +1407,19 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dq" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dr" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "ds" = (
 /obj/machinery/light/small{
@@ -1516,7 +1478,7 @@
 /area/mine/production)
 "dx" = (
 /obj/machinery/light_switch{
-	name = "custom placement";
+	name = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 	pixel_y = -25
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1611,7 +1573,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "dF" = (
 /obj/structure/cable,
@@ -1621,7 +1583,7 @@
 /obj/machinery/power/port_gen/pacman{
 	anchored = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dG" = (
 /obj/machinery/power/port_gen/pacman{
@@ -1630,20 +1592,20 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dH" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/binary/pump/on,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dJ" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1683,7 +1645,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "dP" = (
 /obj/machinery/door/airlock/maintenance{
@@ -1698,7 +1660,7 @@
 /area/mine/maintenance)
 "dQ" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dR" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -1716,7 +1678,7 @@
 	req_access_txt = "48"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "dT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1739,7 +1701,7 @@
 /area/mine/living_quarters)
 "dV" = (
 /obj/effect/spawner/window,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/production)
 "dW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1803,15 +1765,6 @@
 	icon_state = "purplecorner"
 	},
 /area/mine/living_quarters)
-"ef" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "purplecorner"
-	},
-/area/mine/production)
 "eg" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -1832,59 +1785,25 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/living_quarters)
-"ei" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/mine/production)
-"ej" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "brown"
-	},
-/area/mine/production)
 "ek" = (
-/obj/machinery/light{
+/turf,
+/area/mine/living_quarters)
+"en" = (
+/obj/machinery/light/small{
 	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/mine/production)
-"el" = (
-/obj/machinery/door/airlock/mining/glass{
-	name = "Processing Area";
-	req_access_txt = "48"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
-"em" = (
-/obj/machinery/mineral/processing_unit{
-	dir = 1
+/obj/machinery/door_control{
+	id = "miningdorm2";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = 24;
+	specialfunctions = 4
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/turf/simulated/floor/plating,
-/area/mine/production)
-"en" = (
-/obj/machinery/mineral/processing_unit_console,
-/turf/simulated/wall,
-/area/mine/production)
+/turf,
+/area/mine/living_quarters)
 "eo" = (
 /obj/machinery/suit_storage_unit/lavaland,
 /turf/simulated/floor/plasteel{
@@ -2008,120 +1927,13 @@
 	icon_state = "brown"
 	},
 /area/mine/living_quarters)
-"eA" = (
-/obj/machinery/door/airlock/mining/glass{
-	name = "Mining Station Bridge";
-	req_access_txt = "48"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
-"eB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/mine/production)
-"eC" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor/plasteel,
-/area/mine/production)
-"eD" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "brown"
-	},
-/area/mine/production)
-"eE" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/mine/production)
-"eF" = (
-/obj/machinery/door/airlock/mining/glass{
-	name = "Processing Area";
-	req_access_txt = "48"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
-"eG" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "brown"
-	},
-/area/mine/production)
 "eH" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/structure/table,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
-"eI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "purplecorner"
-	},
-/area/mine/production)
-"eJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/structure/ore_box,
-/turf/simulated/floor/plasteel{
-	icon_state = "brown"
-	},
-/area/mine/production)
-"eK" = (
-/turf/simulated/floor/plasteel{
-	dir = 6;
-	icon_state = "purple"
-	},
-/area/mine/production)
+/turf,
+/area/mine/living_quarters)
 "eL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -2151,15 +1963,6 @@
 	icon_state = "brown"
 	},
 /area/mine/living_quarters)
-"eP" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "eQ" = (
 /obj/machinery/door/airlock/mining{
 	name = "Mining Station Storage";
@@ -2198,22 +2001,27 @@
 	},
 /area/mine/living_quarters)
 "eV" = (
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "purplecorner"
+/obj/machinery/light/small{
+	dir = 4
 	},
-/area/mine/production)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door_control{
+	id = "miningdorm3";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_x = 24;
+	specialfunctions = 4
+	},
+/turf,
+/area/mine/living_quarters)
 "eW" = (
 /turf/simulated/floor/plasteel,
 /area/mine/production)
 "eX" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "mining_internal"
-	},
-/obj/structure/plasticflaps,
-/turf/simulated/floor/plating,
-/area/mine/production)
+/turf,
+/area/lavaland/surface/outdoors)
 "eY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2222,12 +2030,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/laborcamp)
-"eZ" = (
-/turf/simulated/floor/plasteel{
-	dir = 4;
-	icon_state = "brown"
-	},
-/area/mine/production)
 "fa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
@@ -2235,17 +2037,6 @@
 	icon_state = "purplecorner"
 	},
 /area/mine/living_quarters)
-"fb" = (
-/obj/machinery/alarm{
-	dir = 1;
-	name = "custom placement";
-	pixel_y = -22
-	},
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plasteel{
-	icon_state = "purple"
-	},
-/area/mine/production)
 "fc" = (
 /obj/machinery/alarm{
 	name = "custom placement";
@@ -2253,14 +2044,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/living_quarters)
-"fd" = (
-/obj/machinery/light,
-/obj/machinery/mech_bay_recharge_port,
-/obj/structure/cable,
-/turf/simulated/floor/plasteel{
-	icon_state = "brown"
-	},
-/area/mine/production)
 "fe" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -2286,55 +2069,21 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/living_quarters)
-"fh" = (
-/turf/simulated/floor/mech_bay_recharge_floor,
-/area/mine/production)
 "fi" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel,
 /area/mine/living_quarters)
-"fj" = (
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "brown"
-	},
-/area/mine/production)
 "fk" = (
 /turf/simulated/floor/plasteel,
 /area/mine/living_quarters)
-"fl" = (
-/obj/effect/turf_decal/loading_area{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "fm" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "mining_internal"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/mine/production)
-"fn" = (
-/obj/machinery/conveyor{
-	dir = 10;
-	id = "mining_internal"
-	},
-/obj/machinery/light/small{
+/obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/mine/production)
+/turf,
+/area/mine/living_quarters)
 "fo" = (
 /obj/machinery/mineral/equipment_vendor,
 /turf/simulated/floor/plasteel{
@@ -2535,7 +2284,7 @@
 	turf_type = /turf/simulated/floor/plating/asteroid/basalt/lava_land_surface;
 	width = 7
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/mining)
 "fK" = (
 /obj/structure/table,
@@ -2676,10 +2425,6 @@
 /obj/structure/curtain/open/shower,
 /turf/simulated/floor/plasteel/freezer,
 /area/mine/living_quarters)
-"gd" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "ge" = (
 /obj/machinery/door/window/southright,
 /obj/machinery/shower{
@@ -4245,7 +3990,7 @@
 /area/mine/laborcamp)
 "tb" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/mining)
 "tj" = (
 /obj/effect/decal/cleanable/ash,
@@ -4281,10 +4026,6 @@
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
-"tK" = (
-/obj/structure/ore_box,
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "tT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan{
@@ -4323,7 +4064,7 @@
 	id = "labor"
 	},
 /obj/effect/spawner/window/reinforced,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "vk" = (
 /obj/machinery/door/airlock/titanium{
@@ -4410,12 +4151,6 @@
 	icon_state = "brown"
 	},
 /area/mine/laborcamp)
-"xA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "xC" = (
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/mining)
@@ -4481,13 +4216,14 @@
 /turf/simulated/floor/plasteel,
 /area/mine/production)
 "AB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/machinery/alarm{
+	name = "custom placement";
+	pixel_y = 23
 	},
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor/plasteel,
-/area/mine/production)
+/turf,
+/area/mine/living_quarters)
 "Bg" = (
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/shuttle/siberia)
@@ -4653,7 +4389,7 @@
 	req_access_txt = "2"
 	},
 /obj/structure/fans/tiny,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/siberia)
 "Gp" = (
 /obj/structure/sign/poster/contraband/clown,
@@ -4752,7 +4488,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "JP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4835,7 +4571,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/eva)
 "LQ" = (
 /obj/item/cigbutt,
@@ -4879,7 +4615,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 "Nj" = (
 /obj/machinery/door/airlock{
@@ -4918,7 +4654,7 @@
 /area/shuttle/mining)
 "NW" = (
 /obj/effect/spawner/window/shuttle,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/shuttle/siberia)
 "NZ" = (
 /obj/structure/toilet,
@@ -4941,7 +4677,7 @@
 "PQ" = (
 /obj/effect/spawner/window,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "QE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5062,18 +4798,6 @@
 	},
 /turf/simulated/floor/mineral/titanium,
 /area/shuttle/siberia)
-"UQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plasteel,
-/area/mine/production)
 "Vt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -5176,7 +4900,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/living_quarters)
 "Xd" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -5237,7 +4961,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/wood,
 /area/mine/laborcamp)
 
 (1,1,1) = {"
@@ -7532,23 +7256,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-aj
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -7789,23 +7513,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-aj
-aj
-aj
-aj
-aj
-ab
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -8046,23 +7770,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-aj
-ab
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -8303,23 +8027,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -8560,23 +8284,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -8817,23 +8541,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-ab
-aj
-ab
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -9074,23 +8798,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-ab
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -9331,23 +9055,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -9588,23 +9312,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-ab
-ab
-aj
-aj
-ab
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -9845,23 +9569,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -10102,23 +9826,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -10359,23 +10083,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -10616,23 +10340,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -10873,23 +10597,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -11130,23 +10854,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -11387,23 +11111,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -11644,23 +11368,23 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -11901,23 +11625,23 @@ aj
 aj
 aj
 ai
-ai
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -12158,23 +11882,23 @@ ab
 ab
 ab
 ad
-ai
-ai
-ai
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -12415,23 +12139,23 @@ cR
 cR
 cR
 cM
-ai
-ai
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -12672,23 +12396,23 @@ fo
 fE
 fL
 cM
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -12921,31 +12645,31 @@ cQ
 dh
 dk
 TN
-dT
-ep
-eL
-cM
-fs
-fk
-fU
-cR
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -13178,31 +12902,31 @@ cQ
 di
 gI
 dP
-dU
-eq
-eO
-eQ
-ft
-fp
-fP
-cR
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -13435,31 +13159,31 @@ cQ
 dj
 dx
 cQ
-dX
-er
-eS
-cM
-fu
-fk
-fU
-cR
-ab
-ai
-ai
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -13692,31 +13416,31 @@ cQ
 dg
 dz
 cQ
-ed
-Kb
-eM
-El
-fv
-fF
-fX
-cM
-ai
-ad
-ai
-ai
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -13949,31 +13673,31 @@ cQ
 cQ
 cQ
 cQ
-fc
-er
-vZ
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-cM
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -14206,31 +13930,31 @@ cM
 db
 dB
 cM
-fk
-EG
-on
-cM
-fe
-fr
-cM
-fe
-fr
-cM
-fe
-fr
-cM
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -14463,31 +14187,31 @@ cR
 dc
 dC
 WO
-dT
-Kb
-Eg
-cM
-ff
-aY
-cM
-ff
-bi
-cM
-ff
 br
-cM
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -14720,21 +14444,21 @@ cR
 de
 dD
 dR
-ft
-es
-vZ
-cM
-fg
-BD
-cM
-fH
-BD
-cM
-fO
-BD
-cM
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 aj
@@ -14977,21 +14701,21 @@ cM
 df
 dt
 dQ
-dX
-er
-sL
-fa
-fw
-fG
-fa
-fw
-gp
-gq
-fw
-gt
-cR
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 aj
@@ -15234,21 +14958,21 @@ cM
 cM
 cM
 cM
-eg
-et
-eN
-gL
-fi
-pa
-pa
-fi
-fN
-Ej
-gA
-fp
-cR
-ab
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 aj
@@ -15491,21 +15215,21 @@ cS
 do
 dF
 cM
-eh
-EG
-on
-cM
-cM
-dQ
-dQ
-cM
-cM
-BD
-Nj
-cM
-cM
-ai
-ab
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 ab
 ab
 aj
@@ -15748,21 +15472,21 @@ cT
 cV
 dG
 cM
-ea
-er
-rV
-cM
-fx
-fz
-fY
-gh
-cM
-gc
-hz
-cM
-ai
-ad
-ai
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 ai
 ab
 ab
@@ -16005,21 +15729,21 @@ cU
 dp
 dH
 dS
-eb
-eu
-Ej
-PQ
-fy
-fy
-fZ
-fz
-cM
-ge
-Tn
-cM
-ab
-ai
-ai
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 ab
 ab
 ab
@@ -16262,21 +15986,21 @@ cV
 dq
 dI
 cM
-ec
-ev
-vZ
-eR
-fz
-fI
-ga
-gi
-cM
-BD
-Zf
-cM
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 aj
@@ -16519,21 +16243,21 @@ cW
 dr
 dr
 cM
-vq
-Kb
-eT
-WO
-fA
-fA
-gb
-gl
-cM
-Fe
-bo
-cM
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 ab
 ab
@@ -16776,21 +16500,21 @@ cM
 cM
 cM
 cM
-fk
-er
-vZ
-cM
-fC
-fz
-gf
-gm
-cM
-IK
-tI
-cM
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 ab
@@ -17033,21 +16757,21 @@ aj
 ab
 ab
 cR
-fk
-ev
-bx
-cM
-fD
-fK
-gg
-gn
-cM
-cM
-cM
-cM
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 aj
@@ -17290,21 +17014,21 @@ aj
 aj
 ab
 cR
-ee
-ey
-eU
-cM
-cR
-cR
-cR
-cR
-cM
-ai
-ai
-ai
-aj
-ab
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 ab
 ab
@@ -17547,21 +17271,21 @@ aj
 aj
 aj
 cR
-cR
-ex
-cR
-cR
-ab
-ab
-ab
-ab
-ai
-ai
-ai
-ab
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 ab
 ab
@@ -17804,21 +17528,21 @@ aj
 aj
 aj
 aj
-cR
-ez
-cR
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
+br
 aj
 aj
 ab
@@ -18832,21 +18556,21 @@ ab
 ab
 aj
 ab
-bN
-UQ
-bN
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+dT
+ep
+eL
+cM
+fs
+fk
+fU
+cR
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -19089,21 +18813,21 @@ ab
 aj
 aj
 ab
-bN
-UQ
-bN
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+dU
+eq
+eO
+eQ
+ft
+fp
+fP
+cR
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -19346,21 +19070,21 @@ aj
 aj
 aj
 ab
-bN
-UQ
-bN
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+dX
+er
+eS
+cM
+fu
+fk
+fU
+cR
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -19603,21 +19327,21 @@ aj
 aj
 aj
 ab
-bN
-eB
-bN
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ed
+Kb
+eM
+El
+fv
+fF
+fX
+cM
+eX
+eX
+eX
+eX
+eX
+eX
+eX
 aj
 aj
 aj
@@ -19860,21 +19584,21 @@ aj
 aj
 ab
 bN
-bN
-eA
-bN
-bN
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+fc
+er
+vZ
+cM
+cM
+cM
+cM
+cM
+ek
+ek
+ek
+ek
+ek
+eX
+eX
 aj
 aj
 aj
@@ -20117,21 +19841,21 @@ bq
 bq
 bq
 bN
-ef
-eD
-ct
-bN
-bq
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+fk
+EG
+on
+cM
+fe
+fr
+cM
+fe
+eH
+ek
+AB
+eH
+ek
+eX
+eX
 aj
 aj
 aj
@@ -20374,21 +20098,21 @@ cH
 cn
 du
 dJ
-xA
-aN
-eW
-fb
-bq
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+dT
+Kb
+Eg
+cM
+ff
+aY
+cM
+ff
+en
+ek
+fm
+eV
+ek
+eX
+eX
 aj
 aj
 aj
@@ -20631,19 +20355,19 @@ cY
 cE
 Uh
 cE
-Uh
-eC
-eP
-fd
-bq
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ft
+es
+vZ
+cM
+fg
+BD
+cM
+fH
+BD
+cM
+fO
+BD
+cM
 aj
 aj
 aj
@@ -20888,19 +20612,19 @@ cI
 VD
 zu
 VD
-gd
-eH
-eW
-fh
-bN
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+dX
+er
+sL
+fa
+fw
+fG
+fa
+fw
+gp
+gq
+fw
+gt
+cR
 aj
 aj
 aj
@@ -21145,20 +20869,20 @@ cN
 dl
 dv
 dK
-ei
-eE
-eV
-fj
-bN
+eg
+et
+eN
+gL
+fi
+pa
+pa
+fi
+fN
+Ej
+gA
+fp
+cR
 ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
 aj
 aj
 aj
@@ -21402,21 +21126,21 @@ bq
 bN
 bq
 dV
-el
-eF
-dV
-bq
-bq
+eh
+EG
+on
+cM
+cM
+dQ
+dQ
+cM
+cM
+BD
+Nj
+cM
+cM
+ai
 ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
 aj
 aj
 aj
@@ -21659,21 +21383,21 @@ da
 dm
 dw
 dL
-ej
-eG
-ct
-tK
-bN
-ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ea
+er
+rV
+cM
+fx
+fz
+fY
+gh
+cM
+gc
+hz
+cM
+ai
+ad
+ai
 aj
 aj
 aj
@@ -21916,21 +21640,21 @@ cO
 eW
 eW
 eW
-xA
-eI
-eZ
-fl
-bq
+eb
+eu
+Ej
+PQ
+fy
+fy
+fZ
+fz
+cM
+ge
+Tn
+cM
 ab
-ab
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ai
+ai
 aj
 aj
 aj
@@ -22173,18 +21897,18 @@ cP
 eW
 dM
 dW
-AB
-eJ
-bq
-eX
-bq
-ab
-ab
-aj
-aj
-aj
-aj
-aj
+ec
+ev
+vZ
+eR
+fz
+fI
+ga
+gi
+cM
+BD
+Zf
+cM
 aj
 aj
 aj
@@ -22430,18 +22154,18 @@ dd
 eW
 dA
 dN
-ek
-eK
-dV
-fm
-bq
-ab
-ab
-aj
-aj
-aj
-aj
-aj
+vq
+Kb
+eT
+WO
+fA
+fA
+gb
+gl
+cM
+Fe
+bo
+cM
 aj
 aj
 aj
@@ -22687,18 +22411,18 @@ cX
 dn
 bq
 dV
-en
-dV
-dV
-fm
-bq
-ab
-ab
-aj
-aj
-aj
-aj
-aj
+fk
+er
+vZ
+cM
+fC
+fz
+gf
+gm
+cM
+IK
+tI
+cM
 aj
 aj
 aj
@@ -22944,18 +22668,18 @@ cZ
 ds
 dE
 dO
-em
-dO
-dO
-fn
-bq
-ab
-ab
-ab
-aj
-aj
-aj
-aj
+fk
+ev
+bx
+cM
+fD
+fK
+gg
+gn
+cM
+cM
+cM
+cM
 aj
 aj
 aj
@@ -23201,20 +22925,20 @@ bq
 bq
 bq
 bq
-bq
-bq
-bq
-bq
-bq
+ee
+ey
+eU
+cM
+cR
+cR
+cR
+cR
+cM
+ai
+ai
+ai
+aj
 ab
-ab
-ab
-aj
-aj
-aj
-aj
-ab
-aj
 aj
 aj
 ab
@@ -23458,18 +23182,18 @@ ab
 ab
 aj
 aj
-aj
-aj
+cR
+ex
+cR
+cR
 ab
 ab
 ab
 ab
+ai
+ai
+ai
 ab
-ab
-aj
-aj
-ab
-aj
 aj
 aj
 aj
@@ -23715,14 +23439,14 @@ aj
 aj
 aj
 aj
+cR
+ez
+cR
+ab
+ab
 aj
 aj
 aj
-ab
-ab
-ab
-ab
-ab
 aj
 aj
 aj
