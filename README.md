@@ -21,8 +21,6 @@
 - [Contribution Guide](.github/CONTRIBUTING.md)
 - [Installation Guide](.github/DOWNLOADING.md)
 
-
-
 ---
 
 
